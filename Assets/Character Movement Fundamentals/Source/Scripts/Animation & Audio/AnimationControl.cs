@@ -7,10 +7,10 @@ namespace CMF
 	//This script controls the character's animation by passing velocity values and other information ('isGrounded') to an animator component;
 	public class AnimationControl : MonoBehaviour {
 
-		Controller controller;
-		Animator animator;
-		Transform animatorTransform;
-		Transform tr;
+		protected Controller controller;
+		protected Animator animator;
+		protected Transform animatorTransform;
+		protected Transform tr;
 
 		//Whether the character is using the strafing blend tree;
 		public bool useStrafeAnimations = false;
@@ -19,7 +19,7 @@ namespace CMF
 		Vector3 oldMovementVelocity = Vector3.zero;
 
 		//Setup;
-		void Awake () {
+		public virtual void Awake () {
 			controller = GetComponent<Controller>();
 			animator = GetComponentInChildren<Animator>();
 			animatorTransform = animator.transform;
@@ -44,7 +44,7 @@ namespace CMF
 		}
 		
 		//Update;
-		void Update () {
+		public virtual void Update () {
 
 			//Get controller velocity;
 			Vector3 _velocity = controller.GetVelocity();

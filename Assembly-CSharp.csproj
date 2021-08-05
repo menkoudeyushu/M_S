@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
+    <Compile Include="Assets\Scripts\base_other\AnimationControlPlayer.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Showcase\FPSCounter.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Camera\CameraController.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Camera\CameraDistanceRaycaster.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Helper\VectorMath.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Showcase\MouseCursorLock.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\AnimationControl.cs" />
+    <Compile Include="Assets\Scripts\base_other\CharacterKeyboardInputPlayer.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\AudioControl.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Controllers\Controller.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\TurnTowardTransformDirection.cs" />
@@ -83,6 +85,7 @@
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Environment\TriggerArea.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Smoothing\SmoothRotation.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Core scripts\Mover.cs" />
+    <Compile Include="Assets\Scripts\system\BaseMonstorController.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Showcase\PlayerData.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Smoothing\SmoothPosition.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Input\Camera\CameraInput.cs" />
@@ -96,7 +99,6 @@
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Environment\FlipAtRightAngle.cs" />
     <Compile Include="Assets\Scripts\tools\XmlTools.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Environment\GravityTunnel.cs" />
-    <Compile Include="Assets\Scripts\system\BaseMonstorController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Character Movement Fundamentals\Source\Misc\Shaders\OneSidedTextShader.shader" />
@@ -340,6 +342,9 @@
     </Reference>
     <Reference Include="Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.5.2\Runtime\VisualScripting.Flow\Dependencies\NCalc\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="clipper_library">
+      <HintPath>Library\PackageCache\com.unity.cinemachine@2.7.5\Runtime\ThirdParty\clipper_library.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.3f1c1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -787,6 +792,12 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
