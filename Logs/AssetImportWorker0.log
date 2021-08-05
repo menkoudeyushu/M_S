@@ -15,11 +15,11 @@ D:/unity2019.4学习/2_14/ms/M_S_studio
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60686
+58463
 Successfully changed project path to: D:/unity2019.4学习/2_14/ms/M_S_studio
 D:/unity2019.4学习/2_14/ms/M_S_studio
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 155.54 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 120.07 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.3f1c1 (3ff389b9352a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.3f1c1/Editor/Data/Resources/UnitySubsystems
@@ -36,147 +36,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.3f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.3f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006734 seconds.
+Registered in 0.004892 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 120.05 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 112.77 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.636 seconds
+- Completed reload, in  2.035 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004420 seconds.
+Registered in 0.003870 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 158.17 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 110.20 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.014 seconds
+- Completed reload, in  1.527 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.35 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4498 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.5 MB.
-System memory in use after: 178.7 MB.
+Unloading 4657 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.5 MB.
+System memory in use after: 184.8 MB.
 
-Unloading 112 unused Assets to reduce memory usage. Loaded Objects now: 4947.
-Total: 3.849000 ms (FindLiveObjects: 0.559400 ms CreateObjectMapping: 0.187700 ms MarkObjects: 2.899500 ms  DeleteObjects: 0.200600 ms)
+Unloading 148 unused Assets to reduce memory usage. Loaded Objects now: 5104.
+Total: 3.961300 ms (FindLiveObjects: 0.616400 ms CreateObjectMapping: 0.322900 ms MarkObjects: 2.812600 ms  DeleteObjects: 0.206900 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/DogKnight/Animator/DogControl.controller
   artifactKey: Guid(b60dc9aa529b314489f628aa3b57c470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DogKnight/Animator/DogControl.controller using Guid(b60dc9aa529b314489f628aa3b57c470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e705ecd8424f4e84e8cefec0f8d61f') in 0.132088 seconds 
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.49 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.4 MB.
-System memory in use after: 82.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 4947.
-Total: 3.016400 ms (FindLiveObjects: 0.423800 ms CreateObjectMapping: 0.124100 ms MarkObjects: 2.444700 ms  DeleteObjects: 0.022600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.830394 seconds.
-  path: Assets/Character Movement Fundamentals/Source/Capguy/CapguyAnimator.controller
-  artifactKey: Guid(568cf4cd0dc9cb848821933ae06d9566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Movement Fundamentals/Source/Capguy/CapguyAnimator.controller using Guid(568cf4cd0dc9cb848821933ae06d9566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae9adfac345a26ea0934f888237b85a') in 0.022126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.503676 seconds.
-  path: Assets/Scripts/system
-  artifactKey: Guid(36b583298adbca44fb7a8520138293b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/system using Guid(36b583298adbca44fb7a8520138293b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8ee6e5d30a40fbf867fe58b8518a15') in 0.015500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.045147 seconds.
-  path: Assets/Scripts/system/BaseMonstorController.cs
-  artifactKey: Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/system/BaseMonstorController.cs using Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0324e52daf946aae46a53aa85ae0df1') in 0.035440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 57.005040 seconds.
-  path: Assets/Scripts/system/BaseMonstorController.cs
-  artifactKey: Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/system/BaseMonstorController.cs using Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a639fe50009a6bc6885cab7cd282d0f') in 0.002116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.878621 seconds.
-  path: Assets/Scripts/system/BaseMonstorController.cs
-  artifactKey: Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/system/BaseMonstorController.cs using Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfa42cf57db229f0175e244e0febbd9') in 0.002018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.114910 seconds.
-  path: Assets/Scripts/system/BaseMonstorController.cs
-  artifactKey: Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/system/BaseMonstorController.cs using Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b787e3a12426b4318fa773ce00b98e') in 0.002355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 72.954978 seconds.
-  path: Assets/Scripts/system/BaseMonstorController.cs
-  artifactKey: Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/system/BaseMonstorController.cs using Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e8c4394ec289d5e62310b73b954bb8') in 0.001700 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.878362 seconds.
-  path: Assets/Scripts/system/BaseMonstorController.cs
-  artifactKey: Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/system/BaseMonstorController.cs using Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adb631bd04776b2f5db8c0dd8e538e4') in 0.002320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.308963 seconds.
-  path: Assets/Scripts/system/BaseMonstorController.cs
-  artifactKey: Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/system/BaseMonstorController.cs using Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89803f8348e0037d252f5910a131f98') in 0.008153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.571852 seconds.
-  path: Assets/Scripts/system/BaseMonstorController.cs
-  artifactKey: Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/system/BaseMonstorController.cs using Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1dd780d332a26aa70ee4072a8fd9ccb') in 0.001993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.781974 seconds.
-  path: Assets/Scripts/system/BaseMonstorController.cs
-  artifactKey: Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/system/BaseMonstorController.cs using Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f7b73d522b3376fcef88bb607d20c9') in 0.002202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.193004 seconds.
-  path: Assets/Scripts/system/BaseMonstorController.cs
-  artifactKey: Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/system/BaseMonstorController.cs using Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1ffbf8f246677c4fdc559bfd527c11') in 0.002147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.950018 seconds.
-  path: Assets/Scripts/system/BaseMonstorController.cs
-  artifactKey: Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/system/BaseMonstorController.cs using Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef1aa772633d7ad696b26f13bae3b9c') in 0.002253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.531241 seconds.
-  path: Assets/Scripts/system/BaseMonstorController.cs
-  artifactKey: Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/system/BaseMonstorController.cs using Guid(b09b026939944ae449ed4cc466d46af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40c4e9298fc09e31f1ca20d33403793') in 0.008419 seconds 
+Start importing Assets/DogKnight/Animator/DogControl.controller using Guid(b60dc9aa529b314489f628aa3b57c470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef520bf7f1392a1b715b274662378e95') in 0.116893 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.021035 seconds.
+Registered in 0.003817 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -188,67 +92,25 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.179 seconds
+- Completed reload, in  1.113 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.5 MB.
-System memory in use after: 169.7 MB.
+Unloading 4543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.4 MB.
+System memory in use after: 175.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4951.
-Total: 3.619800 ms (FindLiveObjects: 0.472000 ms CreateObjectMapping: 0.227100 ms MarkObjects: 2.887300 ms  DeleteObjects: 0.030700 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 5107.
+Total: 5.485400 ms (FindLiveObjects: 0.768400 ms CreateObjectMapping: 0.386500 ms MarkObjects: 4.280900 ms  DeleteObjects: 0.047800 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 201.600928 seconds.
-  path: Assets/Character Movement Fundamentals/Source/Capguy/Animations/WalkLeft.fbx
-  artifactKey: Guid(555b4ed73ed505c41b16dcd0deca550f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Movement Fundamentals/Source/Capguy/Animations/WalkLeft.fbx using Guid(555b4ed73ed505c41b16dcd0deca550f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5147b9f3fc04fc3e48bca3c77813056d') in 0.340367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 166.934502 seconds.
-  path: Assets/Character Movement Fundamentals/Source/Capguy/Animations/Fall.fbx
-  artifactKey: Guid(b0fe517c4b423b644be69ac56b7be116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Movement Fundamentals/Source/Capguy/Animations/Fall.fbx using Guid(b0fe517c4b423b644be69ac56b7be116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff06190e4c1273ca7fb54280bc2721a5') in 0.054271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.356481 seconds.
-  path: Assets/Character Movement Fundamentals/Source/Capguy/Animations/WalkNeutral.fbx
-  artifactKey: Guid(6e3366571bd0929439eb424d3f8e82da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Movement Fundamentals/Source/Capguy/Animations/WalkNeutral.fbx using Guid(6e3366571bd0929439eb424d3f8e82da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a86c32bb33366bbef76aa89ca0bfa0') in 0.061391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 49.811896 seconds.
-  path: Assets/Character Movement Fundamentals/Source/Capguy/Animations/Idle.fbx
-  artifactKey: Guid(61c9dbcfe0f2e6148bd1580e59f9dc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Movement Fundamentals/Source/Capguy/Animations/Idle.fbx using Guid(61c9dbcfe0f2e6148bd1580e59f9dc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c41caeb71f3877192ad4e7e97437658') in 0.063614 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.370620 seconds.
-  path: Assets/Character Movement Fundamentals/Source/Capguy/Animations/WalkForward.fbx
-  artifactKey: Guid(23849d03aca96364bb27745f377b6eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Movement Fundamentals/Source/Capguy/Animations/WalkForward.fbx using Guid(23849d03aca96364bb27745f377b6eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eace29d1618a4a569ab4c3dc31441ad0') in 0.054248 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1809.372424 seconds.
-  path: Assets/Character Movement Fundamentals/Source/Capguy/Animations/WalkBackward.fbx
-  artifactKey: Guid(7c42a756832ccd54f8a1a9a7058b7871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character Movement Fundamentals/Source/Capguy/Animations/WalkBackward.fbx using Guid(7c42a756832ccd54f8a1a9a7058b7871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02cb0d26968660c6bc670a7b87bdab58') in 0.032983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 71.975571 seconds.
-  path: Assets/DogKnight/Animations/Idle_Battle.anim
-  artifactKey: Guid(b79ff7bb68348be479d3db6b7fe8a569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DogKnight/Animations/Idle_Battle.anim using Guid(b79ff7bb68348be479d3db6b7fe8a569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e30651a4c2d492e26660052ee0ae78') in 0.023042 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.026271 seconds.
+Registered in 0.003914 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -260,16 +122,45 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.462 seconds
+- Completed reload, in  1.155 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.4 MB.
-System memory in use after: 189.6 MB.
+Unloading 4543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.5 MB.
+System memory in use after: 175.8 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5003.
-Total: 3.707900 ms (FindLiveObjects: 0.620500 ms CreateObjectMapping: 0.289200 ms MarkObjects: 2.767300 ms  DeleteObjects: 0.028700 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 5110.
+Total: 5.073800 ms (FindLiveObjects: 0.556300 ms CreateObjectMapping: 0.215800 ms MarkObjects: 4.238900 ms  DeleteObjects: 0.059300 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003764 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.117 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4543 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.6 MB.
+System memory in use after: 175.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 5113.
+Total: 3.421100 ms (FindLiveObjects: 0.502500 ms CreateObjectMapping: 0.191000 ms MarkObjects: 2.700200 ms  DeleteObjects: 0.026400 ms)
+
