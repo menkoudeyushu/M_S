@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637637749274826078
+      ticks: 637637757269342588
     m_Hash: 2640374356
   m_LockFileStatus:
     m_FilePath: "D:/unity2019.4\u5B66\u4E60/2_14/ms/M_S_studio/Packages/packages-lock.json"
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637637749274926055
+      ticks: 637637757269422601
     m_Hash: 1154679701
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
