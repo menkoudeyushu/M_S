@@ -54,9 +54,8 @@ namespace CMF
 			Vector3 _verticalVelocity = _velocity - _horizontalVelocity;
 
 			//Smooth horizontal velocity for fluid animation;
-			_horizontalVelocity = Vector3.Lerp(oldMovementVelocity, _horizontalVelocity, smoothingFactor);
+			_horizontalVelocity = Vector3.Lerp(oldMovementVelocity, _horizontalVelocity, smoothingFactor); 
 			oldMovementVelocity = _horizontalVelocity;
-
 			animator.SetFloat("VerticalSpeed", _verticalVelocity.magnitude * VectorMath.GetDotProduct(_verticalVelocity.normalized, tr.up));
 			animator.SetFloat("HorizontalSpeed", _horizontalVelocity.magnitude);
 

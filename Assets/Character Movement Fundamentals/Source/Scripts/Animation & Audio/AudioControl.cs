@@ -106,7 +106,7 @@ namespace CMF
 		void OnLand(Vector3 _v)
 		{
 			//Play land audio clip;
-			audioSource.PlayOneShot(landClip, audioClipVolume);
+			//audioSource.PlayOneShot(landClip, audioClipVolume);
 		}
 
 		void OnJump(Vector3 _v)

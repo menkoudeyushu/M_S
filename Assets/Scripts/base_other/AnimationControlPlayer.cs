@@ -6,7 +6,7 @@ public class AnimationControlPlayer : AnimationControl
 {
     // Start is called before the first frame update
     private CharacterKeyboardInputPlayer characterkeyboardinputPlayer;
-
+    protected AnimationControlPlayer controller_player;
     public override void Awake()
     {
         base.Awake();

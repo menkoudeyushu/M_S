@@ -382,6 +382,20 @@
 "Assets/Scripts/system/MouseManager.cs"
 "Assets/Scripts/system/PlayerController.cs"
 "Assets/Scripts/tools/XmlTools.cs"
+"Assets/Suriyun/Scripts/AnimatorController.cs"
+"Assets/Suriyun/Scripts/Swapper.cs"
+"Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs"
+"Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs"
+"Assets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs"
+"Assets/unity-chan!/Unity-chan! Model/Scripts/IdleChanger.cs"
+"Assets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs"
+"Assets/unity-chan!/Unity-chan! Model/Scripts/RandomWind.cs"
+"Assets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs"
+"Assets/unity-chan!/Unity-chan! Model/Scripts/SpringCollider.cs"
+"Assets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs"
+"Assets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs"
+"Assets/unity-chan!/Unity-chan! Model/Scripts/UnityChanControlScriptWithRgidBody.cs"
+"Assets/unity-chan!/Unity-chan! Model/SplashScreen/Scripts/SplashScreen.cs"
 -langversion:8.0
 
 /deterministic

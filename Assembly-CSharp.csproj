@@ -62,6 +62,7 @@
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Camera\CameraController.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Camera\CameraDistanceRaycaster.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Controllers\AdvancedWalkerController.cs" />
+    <Compile Include="Assets\Suriyun\Scripts\AnimatorController.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Helper\VectorMath.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Showcase\MouseCursorLock.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\AnimationControl.cs" />
@@ -93,19 +94,49 @@
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Controllers\SimpleWalkerController.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Input\Character\CharacterJoystickInput.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\TurnTowardControllerVelocity.cs" />
+    <Compile Include="Assets\Suriyun\Scripts\Swapper.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Controllers\ClickToMoveController.cs" />
     <Compile Include="Assets\Scripts\system\PlayerController.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Showcase\RotateObject.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Environment\FlipAtRightAngle.cs" />
     <Compile Include="Assets\Scripts\tools\XmlTools.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Environment\GravityTunnel.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\IKCtrlRightHand.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\RandomWind.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\IdleChanger.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+     <None Include="Assets\Suriyun\UnityChanShader\Shader\CharaOutline.cginc" />
+     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
      <None Include="Assets\Character Movement Fundamentals\Source\Misc\Shaders\OneSidedTextShader.shader" />
      <None Include="Assets\Character Movement Fundamentals\README.txt" />
      <None Include="Assets\AllSkyFree\AllSkyFree_Readme.txt" />
+     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
      <None Include="Assets\Character Movement Fundamentals\Source\Misc\Fonts\LICENSE.txt" />
+     <None Include="Assets\Suriyun\README.txt" />
+     <None Include="Assets\Suriyun\UnityChanShader\Shader\CharaMain.cginc" />
+     <None Include="Assets\unity-chan!\Unity-chan! Model\Audio\Voice\unity-chan_voice_list.txt" />
+     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+     <None Include="Assets\Suriyun\UnityChanShader\Shader\readme.txt" />
      <None Include="Assets\Character Movement Fundamentals\Source\Misc\Fonts\Attribution.txt" />
+     <None Include="Assets\Suriyun\UnityChanShader\Shader\CharaSkin.cginc" />
+     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
+     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\Stage\Shader\AlphaMask.shader" />
+     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.3f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -769,6 +800,12 @@
     <Reference Include="Unity.ShaderGraph.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
@@ -792,12 +829,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
