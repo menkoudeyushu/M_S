@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System;
 namespace CMF
 {
 	//Advanced walker controller script;
 	//This controller is used as a basis for other controller types ('SidescrollerController');
 	//Custom movement input can be implemented by creating a new script that inherits 'AdvancedWalkerController' and overriding the 'CalculateMovementDirection' function;
+	[System.Serializable]
 	public class AdvancedWalkerController : Controller {
 
 		//References to attached components;
@@ -20,7 +21,7 @@ namespace CMF
         bool jumpKeyWasPressed = false;
 		bool jumpKeyWasLetGo = false;
 		bool jumpKeyIsPressed = false;
-		bool leftShiftPressed = false;
+		public bool leftShiftPressed = false;
 		//Movement speed;
 		// 此速度为行走速度（默认）
 		public float movementSpeed = 1.5f;
