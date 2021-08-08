@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
     <Compile Include="Assets\Scripts\base_other\AnimationControlPlayer.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Showcase\FPSCounter.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Camera\CameraController.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Camera\CameraDistanceRaycaster.cs" />
@@ -67,8 +68,10 @@
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Showcase\MouseCursorLock.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\AnimationControl.cs" />
     <Compile Include="Assets\Scripts\base_other\CharacterKeyboardInputPlayer.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\AudioControl.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Controllers\Controller.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\TurnTowardTransformDirection.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Showcase\AlignRigidbodyToTarget.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\TurnTowardCameraDirection.cs" />
@@ -81,6 +84,8 @@
     <Compile Include="Assets\Scripts\system\MouseManager.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Core scripts\CeilingDetector.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Showcase\DisableShadows.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Input\Character\CharacterKeyboardInput.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Input\Character\CharacterInput.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Environment\TriggerArea.cs" />
@@ -88,12 +93,19 @@
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Core scripts\Mover.cs" />
     <Compile Include="Assets\Scripts\system\BaseMonstorController.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Showcase\PlayerData.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Smoothing\SmoothPosition.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\RandomWind.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\IKCtrlRightHand.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\IdleChanger.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Input\Camera\CameraInput.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Controllers\SidescrollerController.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Controllers\SimpleWalkerController.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Input\Character\CharacterJoystickInput.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\TurnTowardControllerVelocity.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs" />
     <Compile Include="Assets\Suriyun\Scripts\Swapper.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Controllers\ClickToMoveController.cs" />
     <Compile Include="Assets\Scripts\system\PlayerController.cs" />
@@ -101,18 +113,6 @@
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Environment\FlipAtRightAngle.cs" />
     <Compile Include="Assets\Scripts\tools\XmlTools.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Environment\GravityTunnel.cs" />
-    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
-    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\ThirdPersonCamera.cs" />
-    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
-    <Compile Include="Assets\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs" />
-    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs" />
-    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
-    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\IKCtrlRightHand.cs" />
-    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\RandomWind.cs" />
-    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs" />
-    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
-    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
-    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\IdleChanger.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />

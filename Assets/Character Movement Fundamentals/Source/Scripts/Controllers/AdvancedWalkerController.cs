@@ -12,7 +12,7 @@ namespace CMF
 		//References to attached components;
 		protected Transform tr;
 		protected Mover mover;
-		protected CharacterInput characterInput;
+		protected CharacterKeyboardInputPlayer characterInput;
 		protected CeilingDetector ceilingDetector;
 
         //Jump key variables;
@@ -20,10 +20,12 @@ namespace CMF
         bool jumpKeyWasPressed = false;
 		bool jumpKeyWasLetGo = false;
 		bool jumpKeyIsPressed = false;
-
+		bool leftShiftPressed = false;
 		//Movement speed;
-		public float movementSpeed = 7f;
-
+		// 此速度为行走速度（默认）
+		public float movementSpeed = 1.5f;
+		// 一般默认的跑步速度为行走速度的三倍
+		public float runmovementspeeed = 4.5f;
 		//'Aircontrol' determines to what degree the player is able to move while in the air;
 		[Range(0f, 1f)]
 		public float airControl = 0.4f;
@@ -79,7 +81,7 @@ namespace CMF
 		void Awake () {
 			mover = GetComponent<Mover>();
 			tr = transform;
-			characterInput = GetComponent<CharacterInput>();
+			characterInput = GetComponent<CharacterKeyboardInputPlayer>();
 			ceilingDetector = GetComponent<CeilingDetector>();
 
 			if(characterInput == null)
@@ -100,6 +102,7 @@ namespace CMF
 		}
 
         //Handle jump booleans for later use in FixedUpdate;
+		// 玩家输入的检测
         void HandleJumpKeyInput()
         {
             bool _newJumpKeyPressedState = IsJumpKeyPressed();
@@ -113,7 +116,9 @@ namespace CMF
                 jumpInputIsLocked = false;
             }
 
-            jumpKeyIsPressed = _newJumpKeyPressedState;
+			leftShiftPressed = characterInput.IsLeftShiftPressed();
+
+			jumpKeyIsPressed = _newJumpKeyPressedState;
         }
 
         void FixedUpdate()
@@ -193,8 +198,8 @@ namespace CMF
 			}
 
 			//If necessary, clamp movement vector to magnitude of 1f;
-			if(_velocity.magnitude > 1f)
-				_velocity.Normalize();
+			//if(_velocity.magnitude > 1f)
+			//	_velocity.Normalize();
 
 			return _velocity;
 		}
@@ -208,11 +213,15 @@ namespace CMF
 			//Save movement direction for later;
 			Vector3 _velocityDirection = _velocity;
 
+			// 行走?跑步状态的切换
 			//Multiply (normalized) velocity with movement speed;
-			_velocity *= movementSpeed;
+			if (leftShiftPressed) 
+				_velocity *= runmovementspeeed;
+			else
+				_velocity *= movementSpeed;
 
 			//If controller is not grounded, multiply movement velocity with 'airControl';
-			if(!(currentControllerState == ControllerState.Grounded))
+			if (!(currentControllerState == ControllerState.Grounded))
 				_velocity = _velocityDirection * movementSpeed * airControl;
 
 			return _velocity;

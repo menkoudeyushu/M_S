@@ -112,7 +112,7 @@ namespace CMF
 		void OnJump(Vector3 _v)
 		{
 			//Play jump audio clip;
-			audioSource.PlayOneShot(jumpClip, audioClipVolume);
+			//audioSource.PlayOneShot(jumpClip, audioClipVolume);
 		}
 	}
 }
