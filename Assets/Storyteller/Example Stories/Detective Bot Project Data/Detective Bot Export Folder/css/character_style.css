@@ -1,0 +1,127 @@
+
+
+
+body {
+    border-radius: 2px;
+    padding: 20px 5vw 50px;
+    font-size:14px;
+    line-height: 15px;  
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.p {
+    background-color:rgb(241, 241, 241);
+    font-weight: bold; 
+    line-height: 25px;
+    Padding:12px 20px;
+    border-radius:3px;
+    color:  rgb(0, 116, 184);
+    width:870px;
+    margin:auto;
+    
+}
+
+hr{
+    border:.5px solid rgb(228, 228, 228);
+}
+
+.container{
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: center;  
+}
+
+
+
+.card{   
+    box-shadow: 0 0 0 1px #e3ebf3;
+    border:1px solid lightgrey;
+    background-color:white;   
+    transition: all 0.3s linear; 
+    align-items: center;
+    display: flex;
+    width:900px;
+    margin:10px;
+}
+
+
+
+/*.card:hover{
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    border-top:1px solid lightgrey;
+    border-right:1px solid lightgrey;
+}
+*/
+.content {
+    padding:20px;
+    font-size:1em;
+    line-height:1em;
+    word-break: break-word;
+    width:100%;
+    color: #303030;
+}
+
+.card img {
+    min-width:60px;
+    height:60px;
+   /* border: 3px solid grey; */
+    margin:15px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+footer img{
+    width:250px;
+    display:block;
+    margin:auto;
+    padding: 40px;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    .card{
+        width:100%;
+    }
+
+    .content{
+        width: 100%;
+        margin:0px;
+    }
+
+    .p {
+        width:auto;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        margin: 10px;
+        border-style: none;
+        padding: 0px;
+        
+    }
+
+    
+    .card{
+        flex-wrap: wrap;
+        width:100%;
+        justify-content: center;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .p{
+        font-size: 1em;
+    }
+
+    
+}

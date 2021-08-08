@@ -113,27 +113,49 @@
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Environment\FlipAtRightAngle.cs" />
     <Compile Include="Assets\Scripts\tools\XmlTools.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Environment\GravityTunnel.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\ExampleActiveNodeDataCheck.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\RayClick.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\MatchRotation.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\ExampleConditions2.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\FadeUI.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\ExampleStringMethods.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\asmtest.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Sample Character\Scripts\MaruCharacterController.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\ControlFan.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\ExampleCondition1.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\ChatBubbleInstancer.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\RotateThisObject.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Sample Character\Scripts\MaruControl.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\SaveManager.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\SmoothFollow.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\TouchedIDCard.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+     <None Include="Assets\Storyteller\Game Bridge\README.txt" />
      <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
      <None Include="Assets\Suriyun\UnityChanShader\Shader\CharaOutline.cginc" />
      <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
      <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
      <None Include="Assets\Character Movement Fundamentals\Source\Misc\Shaders\OneSidedTextShader.shader" />
      <None Include="Assets\Character Movement Fundamentals\README.txt" />
+     <None Include="Assets\Storyteller\LIB\Storyteller.dll" />
      <None Include="Assets\AllSkyFree\AllSkyFree_Readme.txt" />
+     <None Include="Assets\Storyteller\LIB\Storyteller.xml" />
      <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
      <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
      <None Include="Assets\Character Movement Fundamentals\Source\Misc\Fonts\LICENSE.txt" />
      <None Include="Assets\Suriyun\README.txt" />
      <None Include="Assets\Suriyun\UnityChanShader\Shader\CharaMain.cginc" />
      <None Include="Assets\unity-chan!\Unity-chan! Model\Audio\Voice\unity-chan_voice_list.txt" />
+     <None Include="Assets\Storyteller\ReadMe.txt" />
      <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
      <None Include="Assets\Suriyun\UnityChanShader\Shader\readme.txt" />
      <None Include="Assets\Character Movement Fundamentals\Source\Misc\Fonts\Attribution.txt" />
      <None Include="Assets\Suriyun\UnityChanShader\Shader\CharaSkin.cginc" />
      <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
+     <None Include="Assets\Storyteller\Resources\exampleDialogue.txt" />
+     <None Include="Assets\Storyteller\Submission Guidelines.txt" />
      <None Include="Assets\unity-chan!\Unity-chan! Model\Art\Stage\Shader\AlphaMask.shader" />
      <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
      <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
@@ -376,6 +398,9 @@
     </Reference>
     <Reference Include="clipper_library">
       <HintPath>Library\PackageCache\com.unity.cinemachine@2.7.5\Runtime\ThirdParty\clipper_library.dll</HintPath>
+    </Reference>
+    <Reference Include="Storyteller">
+      <HintPath>Assets\Storyteller\LIB\Storyteller.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.3f1c1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -832,6 +857,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="DaiMangou.BridgedData.csproj">
+      <Project>{684BDD18-C6E0-F7EE-F084-CB2486D4E99F}</Project>
+      <Name>DaiMangou.BridgedData</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
