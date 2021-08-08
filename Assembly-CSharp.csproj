@@ -129,6 +129,8 @@
     <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\SaveManager.cs" />
     <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\SmoothFollow.cs" />
     <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\TouchedIDCard.cs" />
+    <Compile Include="Assets\Scripts\system\MoveBetween2Points.cs" />
+    <Compile Include="Assets\Scripts\AIMonster\BaseMonasterAI.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
