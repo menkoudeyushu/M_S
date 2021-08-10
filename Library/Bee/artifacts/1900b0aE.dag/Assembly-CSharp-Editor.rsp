@@ -363,7 +363,6 @@
 "Assets/Storyteller/Game Bridge/Editor/MarkupEditor.cs"
 "Assets/Storyteller/Game Bridge/Editor/SceneDataEditor.cs"
 "Assets/Storyteller/Game Bridge/Editor/ToolImageData.cs"
-"Assets/unity-chan!/Unity-chan! Model/Editor/CreateLocatorHere.cs"
 -langversion:8.0
 
 /deterministic
