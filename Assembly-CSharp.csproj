@@ -118,6 +118,8 @@
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Environment\GravityTunnel.cs" />
     <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\ChatBubbleInstancer.cs" />
     <Compile Include="Assets\Scripts\Npc\NpcBaseAI.cs" />
+    <Compile Include="Assets\Scripts\Npc\NpcSample.cs" />
+    <Compile Include="Assets\Scripts\StaticClass\EnumClass.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Storyteller\Game Bridge\README.txt" />

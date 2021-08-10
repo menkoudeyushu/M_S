@@ -10,13 +10,13 @@ public  class BaseMonasterAI:MonoBehaviour
     public GameObject  Game_object{ get; }
 
     //每一个的monster AI 都移有一个Animator
-    private Animator[] Npc_animator;
+    private Animator[] monster_animator;
 
     private void Awake()
     {
-        Npc_animator = GetComponentsInChildren<Animator>();
-        if (Npc_animator == null)
-            Debug.LogError("npc ai do not find animator");
+        monster_animator = GetComponentsInChildren<Animator>();
+        if (monster_animator == null)
+            Debug.LogError("monster ai do not find animator");
     }
     
 

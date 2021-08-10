@@ -382,6 +382,8 @@
 "Assets/Scripts/base_other/AnimationControlPlayer.cs"
 "Assets/Scripts/base_other/CharacterKeyboardInputPlayer.cs"
 "Assets/Scripts/Npc/NpcBaseAI.cs"
+"Assets/Scripts/Npc/NpcSample.cs"
+"Assets/Scripts/StaticClass/EnumClass.cs"
 "Assets/Scripts/system/BaseMonstorController.cs"
 "Assets/Scripts/system/MouseManager.cs"
 "Assets/Scripts/system/MoveBetween2Points.cs"
