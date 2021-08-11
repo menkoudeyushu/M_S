@@ -12,7 +12,7 @@ public class NpcBaseAI : MonoBehaviour
     //每一个的monster AI 都移有一个Animator
     protected Animator[] Npc_base_animator;
     // Start is called before the first frame update
-    void Start()
+    public virtual void Start()
     {
         Npc_base_animator = GetComponentsInChildren<Animator>();
         if (Npc_base_animator == null)
