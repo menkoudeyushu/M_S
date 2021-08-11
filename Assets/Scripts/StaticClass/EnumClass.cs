@@ -6,7 +6,7 @@ namespace ServerGuilt
 {
     public static class EnumClass
     {
-        public enum NPC_BEhaviors { WALK, RUN, PLAY, DONGWORK };
+        public enum NPC_BEhaviors { WALK, RUN, PLAY, DONGWORK,Talking };
 
 
 

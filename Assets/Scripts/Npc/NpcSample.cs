@@ -28,7 +28,7 @@ public class NpcSample : NpcBaseAI
     private int walk_hash;
     private int run_hash;
     private int doing_work_hash;
-
+    private int talking_hash;
      void Start()
     {
         base.Start();
@@ -46,6 +46,7 @@ public class NpcSample : NpcBaseAI
         walk_hash = Animator.StringToHash("IsWalking");
         run_hash = Animator.StringToHash("IsRunning");
         doing_work_hash = Animator.StringToHash("IsDoingWork");
+        talking_hash = Animator.StringToHash("IsTalking");
     }
 
 
@@ -76,6 +77,7 @@ public class NpcSample : NpcBaseAI
                 nav.destination = npc_move_trans_list[cur_position_index].position;
                 // 如果这个NPC没有其他的行为就默认一直开着animator
                 npc_animator.SetBool(walk_hash,true);
+                Debug.LogError("exed walk");
                 npc_animator.SetBool(run_hash, false);
                 break;
             case EnumClass.NPC_BEhaviors.RUN:
@@ -98,7 +100,11 @@ public class NpcSample : NpcBaseAI
                 npc_animator.SetBool(run_hash, true);
                 npc_animator.SetBool(walk_hash, false);
                 break;
-
+            case EnumClass.NPC_BEhaviors.Talking:
+                npc_animator.SetBool(talking_hash, true);
+                break;
+            case EnumClass.NPC_BEhaviors.DONGWORK:
+                break;
 
 
 
