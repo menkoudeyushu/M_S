@@ -77,7 +77,6 @@ public class NpcSample : NpcBaseAI
                 nav.destination = npc_move_trans_list[cur_position_index].position;
                 // 如果这个NPC没有其他的行为就默认一直开着animator
                 npc_animator.SetBool(walk_hash,true);
-                Debug.LogError("exed walk");
                 npc_animator.SetBool(run_hash, false);
                 break;
             case EnumClass.NPC_BEhaviors.RUN:

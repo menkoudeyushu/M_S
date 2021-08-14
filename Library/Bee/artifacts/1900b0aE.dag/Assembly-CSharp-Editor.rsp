@@ -108,7 +108,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"Assets/Storyteller/LIB/Storyteller.dll"
+-r:"Assets/Plugins/LitJson.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.3f1c1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.3f1c1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.3f1c1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -313,7 +313,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.cinemachine.editor.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/DaiMangou.BridgedData.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Polybrush.Editor.ref.dll"
@@ -352,17 +351,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Character Movement Fundamentals/Source/Scripts/Editor/MoverInspector.cs"
 "Assets/Editor/AutoSave.cs"
-"Assets/Storyteller/Game Bridge/Editor/ClickListenerEditor.cs"
-"Assets/Storyteller/Game Bridge/Editor/CollisionInteractionReceiverEditor.cs"
-"Assets/Storyteller/Game Bridge/Editor/CollisionInteractionTriggerEditor.cs"
-"Assets/Storyteller/Game Bridge/Editor/ConditionCopy.cs"
-"Assets/Storyteller/Game Bridge/Editor/GameBridgeEditorWindow.cs"
-"Assets/Storyteller/Game Bridge/Editor/IconAssignmentPostProcessor.cs"
-"Assets/Storyteller/Game Bridge/Editor/InteractableCharacterEditor.cs"
-"Assets/Storyteller/Game Bridge/Editor/InteractionEditor.cs"
-"Assets/Storyteller/Game Bridge/Editor/MarkupEditor.cs"
-"Assets/Storyteller/Game Bridge/Editor/SceneDataEditor.cs"
-"Assets/Storyteller/Game Bridge/Editor/ToolImageData.cs"
 -langversion:8.0
 
 /deterministic

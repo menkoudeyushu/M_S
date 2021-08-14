@@ -6,7 +6,23 @@ namespace ServerGuilt
 {
     public static class EnumClass
     {
-        public enum NPC_BEhaviors { WALK, RUN, PLAY, DONGWORK,Talking };
+        public enum NPC_BEhaviors 
+        { 
+            WALK, 
+            RUN, 
+            PLAY, 
+            DONGWORK,
+            Talking 
+        };
+
+        // 由以后开发待补充
+        public enum UIPanelType
+        {
+            MainMenuPanel,
+            SystemSettingPanel,
+            PausePanel,
+            StorePanel
+        };
 
 
 

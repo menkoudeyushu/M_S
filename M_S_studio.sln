@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{2A68D0F6-7A1A-AF83-296F-268C05D566AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaiMangou.BridgedData", "DaiMangou.BridgedData.csproj", "{684BDD18-C6E0-F7EE-F084-CB2486D4E99F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{1B18F563-1796-B675-B7D6-87F483B9583F}"
 EndProject
 Global
@@ -17,10 +15,6 @@ Global
 		{2A68D0F6-7A1A-AF83-296F-268C05D566AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A68D0F6-7A1A-AF83-296F-268C05D566AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A68D0F6-7A1A-AF83-296F-268C05D566AB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{684BDD18-C6E0-F7EE-F084-CB2486D4E99F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{684BDD18-C6E0-F7EE-F084-CB2486D4E99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{684BDD18-C6E0-F7EE-F084-CB2486D4E99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{684BDD18-C6E0-F7EE-F084-CB2486D4E99F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1B18F563-1796-B675-B7D6-87F483B9583F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1B18F563-1796-B675-B7D6-87F483B9583F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B18F563-1796-B675-B7D6-87F483B9583F}.Release|Any CPU.ActiveCfg = Release|Any CPU
