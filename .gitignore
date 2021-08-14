@@ -15,3 +15,5 @@ pom.xml.asc
 Temp/UnityLockfile
 /Library
 /Logs
+Library/
+Logs/
