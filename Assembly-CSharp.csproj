@@ -57,10 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\base_other\AnimationControlPlayer.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\asmtest.cs" />
     <Compile Include="Assets\Scripts\Npc\NpcSample.cs" />
     <Compile Include="Assets\Scripts\StaticClass\EnumClass.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Showcase\FPSCounter.cs" />
     <Compile Include="Assets\Scripts\UI\UIFrameWork\UIManager.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\MatchRotation.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Camera\CameraController.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Camera\CameraDistanceRaycaster.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Controllers\AdvancedWalkerController.cs" />
@@ -70,6 +72,9 @@
     <Compile Include="Assets\Scripts\base_other\CharacterKeyboardInputPlayer.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\AudioControl.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Controllers\Controller.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\SaveManager.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\SmoothFollow.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\ControlFan.cs" />
     <Compile Include="Assets\PolygonFantasyHeroCharacters\Scripts\CharacterRandomizer.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\TurnTowardTransformDirection.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Showcase\AlignRigidbodyToTarget.cs" />
@@ -79,6 +84,7 @@
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Input\Camera\CameraJoystickInput.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Showcase\DemoMenu.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Core scripts\Sensor.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\ExampleActiveNodeDataCheck.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Environment\MovingPlatform.cs" />
     <Compile Include="Assets\Scripts\system\MouseManager.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Core scripts\CeilingDetector.cs" />
@@ -95,39 +101,34 @@
     <Compile Include="Assets\Scripts\UI\UIFrameWork\UIRoot.cs" />
     <Compile Include="Assets\Scripts\UI\UIFrameWork\UIBasePanel.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Smoothing\SmoothPosition.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\ExampleCondition1.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\ExampleConditions2.cs" />
     <Compile Include="Assets\Scripts\Npc\NpcBaseAI.cs" />
     <Compile Include="Assets\Scripts\UI\UIFrameWork\UIGameStartPanel.cs" />
     <Compile Include="Assets\Scripts\StaticClass\StackExtension.cs" />
     <Compile Include="Assets\Scripts\AIMonster\BaseMonasterAI.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Sample Character\Scripts\MaruControl.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\FadeUI.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Input\Camera\CameraInput.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Controllers\SidescrollerController.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\RayClick.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Controllers\SimpleWalkerController.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Input\Character\CharacterJoystickInput.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Animation &amp; Audio\TurnTowardControllerVelocity.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\RotateThisObject.cs" />
     <Compile Include="Assets\Scripts\StaticClass\DictionaryExtension.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Controllers\ClickToMoveController.cs" />
     <Compile Include="Assets\Scripts\system\PlayerController.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\ExampleStringMethods.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Showcase\RotateObject.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Environment\FlipAtRightAngle.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\TouchedIDCard.cs" />
     <Compile Include="Assets\Scripts\tools\XmlTools.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Sample Character\Scripts\MaruCharacterController.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Environment\GravityTunnel.cs" />
     <Compile Include="Assets\Scripts\AIMonster\MonsterAiHumanCommon.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\ExampleActiveNodeDataCheck.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\RayClick.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\MatchRotation.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\ExampleConditions2.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\FadeUI.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\ExampleStringMethods.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\asmtest.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Sample Character\Scripts\MaruCharacterController.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\ControlFan.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\ExampleCondition1.cs" />
     <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\ChatBubbleInstancer.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\RotateThisObject.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Sample Character\Scripts\MaruControl.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\SaveManager.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\SmoothFollow.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Example Game Bridge Scene Assets\Scripts\TouchedIDCard.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerBase.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Storyteller\Game Bridge\README.txt" />

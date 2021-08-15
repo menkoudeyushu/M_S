@@ -56,29 +56,29 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\CollisionInteractionReceiver.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Elements\RouteNodeData.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Elements\CharacterNodeData.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\InteractableCharacter.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\Condition.cs" />
     <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\ScriptableObjectData\SceneData.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\Interaction.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Elements\EnvironmentNodeData.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\ScriptableObjectData\NodeData.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\SerializableMethodInfo.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\SerializableType.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\ClickListener.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Elements\ActionNodeData.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\History.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\DynamicMethod.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Elements\EndNodeData.cs" />
     <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\ScriptableObjectData\BridgeData.cs" />
     <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Elements\LinkNodeData.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\InteractionTriggerManager.cs" />
     <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\CollisionInteractionTrigger.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\DynamicMethod.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\ReflectedData.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\History.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Elements\EndNodeData.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Elements\DialogueNodeData.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\SerializableMethodInfo.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\Condition.cs" />
     <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\KeywordFilter.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\CollisionInteractionReceiver.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\ReflectedData.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Elements\RouteNodeData.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\InteractionTriggerManager.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Elements\ActionNodeData.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\InteractableCharacter.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\ScriptableObjectData\NodeData.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\SerializableType.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Elements\DialogueNodeData.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\Interaction.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Elements\CharacterNodeData.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Elements\EnvironmentNodeData.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Bridged Data\Scripts\ClickListener.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Storyteller\Game Bridge\Bridged Data\DaiMangou.BridgedData.asmdef" />

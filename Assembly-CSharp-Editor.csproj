@@ -56,19 +56,19 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Editor\AutoSave.cs" />
-    <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Editor\MoverInspector.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Editor\CollisionInteractionReceiverEditor.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Editor\GameBridgeEditorWindow.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Editor\IconAssignmentPostProcessor.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Editor\InteractableCharacterEditor.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Editor\InteractionEditor.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Editor\MarkupEditor.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Editor\ToolImageData.cs" />
     <Compile Include="Assets\Storyteller\Game Bridge\Editor\ClickListenerEditor.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Editor\InteractableCharacterEditor.cs" />
+    <Compile Include="Assets\Editor\AutoSave.cs" />
     <Compile Include="Assets\Storyteller\Game Bridge\Editor\CollisionInteractionTriggerEditor.cs" />
-    <Compile Include="Assets\Storyteller\Game Bridge\Editor\ConditionCopy.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Editor\CollisionInteractionReceiverEditor.cs" />
     <Compile Include="Assets\Storyteller\Game Bridge\Editor\SceneDataEditor.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Editor\ToolImageData.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Editor\IconAssignmentPostProcessor.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Editor\MarkupEditor.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Editor\InteractionEditor.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Editor\GameBridgeEditorWindow.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Editor\ConditionCopy.cs" />
+    <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Editor\MoverInspector.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
