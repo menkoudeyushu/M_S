@@ -58,6 +58,17 @@
   <ItemGroup>
     <Compile Include="Assets\Editor\AutoSave.cs" />
     <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Editor\MoverInspector.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Editor\CollisionInteractionReceiverEditor.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Editor\GameBridgeEditorWindow.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Editor\IconAssignmentPostProcessor.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Editor\InteractableCharacterEditor.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Editor\InteractionEditor.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Editor\MarkupEditor.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Editor\ToolImageData.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Editor\ClickListenerEditor.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Editor\CollisionInteractionTriggerEditor.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Editor\ConditionCopy.cs" />
+    <Compile Include="Assets\Storyteller\Game Bridge\Editor\SceneDataEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -317,6 +328,9 @@
     </Reference>
     <Reference Include="LitJson">
       <HintPath>Assets\Plugins\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Storyteller">
+      <HintPath>Assets\Storyteller\LIB\Storyteller.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -785,6 +799,10 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{2A68D0F6-7A1A-AF83-296F-268C05D566AB}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="DaiMangou.BridgedData.csproj">
+      <Project>{684BDD18-C6E0-F7EE-F084-CB2486D4E99F}</Project>
+      <Name>DaiMangou.BridgedData</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
