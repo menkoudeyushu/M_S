@@ -1,31 +1,34 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// ´ËÀàÎªµ¥ÀıÄ£Ê½ Íæ¼ÒµÄÊı¾İµÄ¼¯ºÏ 
 // Singleton
 public class PlayerBase : MonoBehaviour
 {
-    
-    
-    
+    // è¿™ä¸ªé™æ€çš„ç±»æœ‰ä»€ä¹ˆå±æ€§ä»¥ååœ¨é¡¶
     private static PlayerBase PlayerInstance;
     private int PlayerMaxHealth;
     private int PlayerCurrentHealth;
     private int PlayerMaxMagic;
     private int PlayerCurrentMagic;
 
+    // æ„é€ å‡½æ•°
     private PlayerBase()
     {
-        /// ³õÊ¼»¯Õâ¸öÀàµÄÊ±ºò £¬ËùÓĞµÄÊı¾İ ¶ÁXMLÎÄ¼ş Ëã³ö µ±Ç°µÄÕâĞ©Íæ¼ÒÊôĞÔ
-        
+        // åœ¨æ„é€ å‡½æ•°ä¸­ è¯»å–XMLæ–‡ä»¶çš„æ•°æ®
 
+    }
+    
+    //todo:
+    public static void GetPlayerDataByXML()
+    {
+        
+        
     }
 
 
     public static PlayerBase GetPlayerBaseInstance()
     {
-        // Èç¹ûÀàµÄÊµÀı²»´æÔÚÔò´´½¨£¬·ñÔòÖ±½Ó·µ»Ø
         if (PlayerInstance == null)
         {
             PlayerInstance = new PlayerBase();
@@ -35,6 +38,8 @@ public class PlayerBase : MonoBehaviour
 
     private void OnDestroy()
     {
+        
+        Debug.LogError("static playerbase class delete");
         PlayerInstance = null;
     }
 }

@@ -15,7 +15,7 @@ namespace ServerGuilt
             Talking 
         };
 
-        // ÓÉÒÔºó¿ª·¢´ý²¹³ä
+        // ï¿½ï¿½ï¿½Ôºó¿ª·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         public enum UIPanelType
         {
             MainMenuPanel,
@@ -24,19 +24,27 @@ namespace ServerGuilt
             StorePanel
         };
 
-        // µÐÈËAI
+        // ï¿½ï¿½ï¿½ï¿½AI
         public enum HumanMonsterType
         {
-            Patrol,// Íæ¼ÒÍÑÀëºó Ñ²Âß »òÕß³õÊ¼µÄÑ²Âß
+            Patrol,// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ñ²ï¿½ï¿½ ï¿½ï¿½ï¿½ß³ï¿½Ê¼ï¿½ï¿½Ñ²ï¿½ï¿½
             Chase,//
             Doingwork,
             Talking,
             Dead,
-            Attack01,// Ö»ÊÇÒ»Ð©»ù´¡µÄµÐÈË£¬BOSSµÐÈËµÄAI ÔÚËµ°É
+            Attack01,// Ö»ï¿½ï¿½Ò»Ð©ï¿½ï¿½ï¿½ï¿½ï¿½Äµï¿½ï¿½Ë£ï¿½BOSSï¿½ï¿½ï¿½Ëµï¿½AI ï¿½ï¿½Ëµï¿½ï¿½
             Attack02,
             idle
         };
-
+        
+        
+        public enum  ItemType
+        {
+            Drag,
+            FirstEquip,
+            SecondEquip,
+            Weapon,
+        }
 
 
 
