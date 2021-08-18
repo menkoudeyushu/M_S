@@ -3,5 +3,6 @@
   <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise">
     <file url="file://$PROJECT_DIR$/Assets/Scripts/AIMonster/MonsterAiHumanCommon.cs" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerBase.cs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/tools/XmlTools.cs" charset="GBK" />
   </component>
 </project>

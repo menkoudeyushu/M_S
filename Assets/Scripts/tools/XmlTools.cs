@@ -6,6 +6,30 @@ using System.IO;
 using System;
 public class XmlTools : MonoBehaviour
 {
+    private static XmlTools XmlToolsInstance;
+    private XmlTools()
+    {
+        // 在构造函数中 读取XML文件的数据
+
+    }
+    
+    // struct type
+    struct  SingleWeapons
+    {
+        public int attack;
+        public int durability;
+    };
+    
+    
+    public static XmlTools GetPlayerBaseInstance()
+    {
+        if (XmlToolsInstance == null)
+        {
+            XmlToolsInstance = new XmlTools();
+        }
+        return XmlToolsInstance;
+    }
+    
     //class Program
     //{
     //    static void Main(string[] args)
@@ -16,9 +40,7 @@ public class XmlTools : MonoBehaviour
     /// <summary>
     /// 所有的XML文件全部放在同一文件夹目录下
     /// </summary>
-    public class XMLTOOL
-    {
-        // XML create
+    // XML create
         public static void createXML(string root_name, string xml_name)
         {
             //新建XmlDocument对象
@@ -95,12 +117,13 @@ public class XmlTools : MonoBehaviour
         }
 
         /// <summary>
-        /// 
+        ///  读取文件的时候在加一个参数，
+        ///  读取XML文件的类型
         /// </summary>
         /// <param name="xml_name"></param>
-        static void ReadXML(string xml_name, string root_name)
+        public static void ReadXML(string xml_name, string root_name)
         {
-
+    
             XmlDocument doc = new XmlDocument();
             string path = Application.dataPath + "/player_Data/" + xml_name + ".xml";
             doc.Load(path);
@@ -125,7 +148,7 @@ public class XmlTools : MonoBehaviour
         /// </summary>
         /// <param name="xml_name"></param>
         /// <param name="deleted_node_name"></param>
-        static void DeleteXMLNode(string xml_name, string deleted_node_name, string root_name)
+        public static void DeleteXMLNode(string xml_name, string deleted_node_name, string root_name)
         {
             XmlDocument doc = new XmlDocument();
             string path = Application.dataPath + "/player_Data/" + xml_name + ".xml";
@@ -142,6 +165,31 @@ public class XmlTools : MonoBehaviour
             doc.Save(path);
         }
 
+        // 此方法为读取配置的XML文件，不同的XML结构 需要不同的
+        // 调用时由物品的manage掉用方法
+        public static void ReadXml()
+        {
 
-    }
+            XmlDocument doc = new XmlDocument();
+            string xmlfile = @"C:/Users/SJOY/Desktop/comsum/XML_TEST.xml";
+            doc.Load(xmlfile);
+
+            XmlNode weapon = doc.SelectSingleNode("weapon");
+            XmlNodeList weapon_node_list = weapon.ChildNodes;
+            Dictionary<string, SingleWeapons> result_dic = new Dictionary<string, SingleWeapons>();
+            for (int i = 0; i < weapon_node_list.Count; i++)
+            {
+                SingleWeapons temp;
+                string key = weapon_node_list[i].Name;
+                temp.attack = int.Parse(weapon_node_list[i].SelectSingleNode("attack").InnerText);
+                temp.durability = int.Parse(weapon_node_list[i].SelectSingleNode("durability").InnerText);
+                result_dic.Add(key, temp);
+                
+
+            }
+
+            return result_dic;
+
+        }
+
 }

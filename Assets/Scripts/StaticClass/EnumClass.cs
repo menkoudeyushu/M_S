@@ -36,15 +36,23 @@ namespace ServerGuilt
             Attack02,
             idle
         };
-        
-        
-        public enum  ItemType
+
+
+        public enum ItemType
         {
             Drag,
             FirstEquip,
             SecondEquip,
             Weapon,
-        }
+        };
+
+        public enum DataUpdateType
+        {
+            Add,
+            Update,
+            Delete,
+        };
+
 
 
 
