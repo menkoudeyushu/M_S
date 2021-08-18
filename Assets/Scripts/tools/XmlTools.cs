@@ -10,15 +10,17 @@ public class XmlTools : MonoBehaviour
     private XmlTools()
     {
         // 在构造函数中 读取XML文件的数据
-
+        ReadXmlConfig();
     }
     
-    // struct type
-    struct  SingleWeapons
+    public struct  SingleWeapons
     {
         public int attack;
         public int durability;
     };
+    // struct type
+    public static Dictionary<string, SingleWeapons> weapon_dictionary = new Dictionary<string, SingleWeapons>();
+    
     
     
     public static XmlTools GetPlayerBaseInstance()
@@ -167,7 +169,7 @@ public class XmlTools : MonoBehaviour
 
         // 此方法为读取配置的XML文件，不同的XML结构 需要不同的
         // 调用时由物品的manage掉用方法
-        public static void ReadXml()
+        public static void ReadXmlConfig()
         {
 
             XmlDocument doc = new XmlDocument();
@@ -176,20 +178,14 @@ public class XmlTools : MonoBehaviour
 
             XmlNode weapon = doc.SelectSingleNode("weapon");
             XmlNodeList weapon_node_list = weapon.ChildNodes;
-            Dictionary<string, SingleWeapons> result_dic = new Dictionary<string, SingleWeapons>();
             for (int i = 0; i < weapon_node_list.Count; i++)
             {
                 SingleWeapons temp;
                 string key = weapon_node_list[i].Name;
                 temp.attack = int.Parse(weapon_node_list[i].SelectSingleNode("attack").InnerText);
                 temp.durability = int.Parse(weapon_node_list[i].SelectSingleNode("durability").InnerText);
-                result_dic.Add(key, temp);
-                
-
+                weapon_dictionary.Add(key, temp);
             }
-
-            return result_dic;
-
         }
 
 }
