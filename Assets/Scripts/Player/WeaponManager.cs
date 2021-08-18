@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using ServerGuilt;
 using UnityEngine;
-
+using Item;
 // 这个类保存完玩家所拥有的全部武器物品
 public class WeaponManager : MonoBehaviour
 {
         private static PlayerBase PlayerInstance;
         private List<string> xml_weapon_list = new List<string>();
-        private List<ItemBase> player_weapon_list = new List<ItemBase>();
+        private List<WeaponBaseSword> player_weapon_list = new List<WeaponBaseSword>();
 
         private WeaponManager()
         {
@@ -42,14 +42,27 @@ public class WeaponManager : MonoBehaviour
                 }
         }
 
-        private void UpdatePlayerWeaponList(EnumClass.DataUpdateType type)
+        private void UpdatePlayerWeaponList(EnumClass.DataUpdateType type,string sword_str,int need_change_count)
         {
-                
-                
+                for (int i = 0; i < player_weapon_list.Count; i++)
+                {
+                        if (player_weapon_list[i].sword_config_str == sword_str)
+                        {
+                                if (type == EnumClass.DataUpdateType.Add)
+                                        player_weapon_list[i].ChangeItemCount(need_change_count);
+                                else if (type == EnumClass.DataUpdateType.Update)
+                                        ;
+                                else if (type == EnumClass.DataUpdateType.Delete)
+                                        ;
+                                else
+                                        ;
+                        }
+                }
         }
         
         private void UpdatePlayerWeaponList(EnumClass.DataUpdateType type,int count)
         {
+                
                         
                 
         }
@@ -60,7 +73,8 @@ public class WeaponManager : MonoBehaviour
                 
 
         }
-
+        
+        
 
 
 

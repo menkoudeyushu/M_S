@@ -52,8 +52,16 @@ namespace ServerGuilt
             Update,
             Delete,
         };
-
-
+        
+        // 剑的攻击类型
+        public enum SwordAttackType
+        {
+            SpikeStrike, // 突刺
+            Blunt,// 钝击
+        }
+        
+        
+        
 
 
     }

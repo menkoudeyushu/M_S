@@ -44,6 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\base_other\AnimationControlPlayer.cs" />
+    <Compile Include="Assets\Scripts\Item\WeaponBaseSword.cs" />
     <Compile Include="Assets\Scripts\Player\WeaponManager.cs" />
     <Compile Include="Assets\Storyteller\Game Bridge\asmtest.cs" />
     <Compile Include="Assets\Scripts\Npc\NpcSample.cs" />
