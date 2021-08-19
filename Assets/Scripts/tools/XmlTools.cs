@@ -4,45 +4,51 @@ using UnityEngine;
 using System.Xml;
 using System.IO;
 using System;
-public class XmlTools : MonoBehaviour
+
+namespace Tools
 {
-    private static XmlTools XmlToolsInstance;
-    private XmlTools()
+    public class XmlTools : MonoBehaviour
     {
-        // 在构造函数中 读取XML文件的数据
-        ReadXmlConfig();
-    }
-    
-    public struct  SingleWeapons
-    {
-        public int attack;
-        public int durability;
-    };
-    // struct type
-    public static Dictionary<string, SingleWeapons> weapon_dictionary = new Dictionary<string, SingleWeapons>();
-    
-    
-    
-    public static XmlTools GetPlayerBaseInstance()
-    {
-        if (XmlToolsInstance == null)
+        public static XmlTools XmlToolsInstance;
+
+        private XmlTools()
         {
-            XmlToolsInstance = new XmlTools();
+            // 在构造函数中 读取XML文件的数据
+            //ReadXmlConfig();
         }
-        return XmlToolsInstance;
-    }
-    
-    //class Program
-    //{
-    //    static void Main(string[] args)
-    //    {
-    //        Console.WriteLine("Hello World!");
-    //    }
-    //}
-    /// <summary>
-    /// 所有的XML文件全部放在同一文件夹目录下
-    /// </summary>
-    // XML create
+
+        public struct SingleWeapons
+        {
+            public int attack;
+            public int durability;
+        };
+
+        // struct type
+        public static Dictionary<string, SingleWeapons> weapon_dictionary = new Dictionary<string, SingleWeapons>();
+
+
+
+        public static XmlTools GetPlayerBaseInstance()
+        {
+            if (XmlToolsInstance == null)
+            {
+                XmlToolsInstance = new XmlTools();
+            }
+
+            return XmlToolsInstance;
+        }
+
+        //class Program
+        //{
+        //    static void Main(string[] args)
+        //    {
+        //        Console.WriteLine("Hello World!");
+        //    }
+        //}
+        /// <summary>
+        /// 所有的XML文件全部放在同一文件夹目录下
+        /// </summary>
+        // XML create
         public static void createXML(string root_name, string xml_name)
         {
             //新建XmlDocument对象
@@ -61,7 +67,8 @@ public class XmlTools : MonoBehaviour
         /// @param need_insert_node_name , inserted_node_Name,inserted_node_value(int)
         /// </summary>
         /// <param name="need_insert_node_name"></param>
-        public static void AddXML(string need_insert_node_name, string inserted_node_Name, int inserted_node_value, string xml_name)
+        public static void AddXML(string need_insert_node_name, string inserted_node_Name, int inserted_node_value,
+            string xml_name)
         {
             //新建XmlDocument对象
             string path = Application.dataPath + "/player_Data/" + xml_name + ".xml";
@@ -75,6 +82,7 @@ public class XmlTools : MonoBehaviour
             {
                 throw new Exception("load fail");
             }
+
             //查找要插入数据的节点
             XmlNode newxmlnode = doc.SelectSingleNode(need_insert_node_name);
             //创建新的节点
@@ -85,7 +93,8 @@ public class XmlTools : MonoBehaviour
             doc.Save(path);
         }
 
-        public static void UpdateXML(string parent_node_name, string updated_node_name, int updated_node_value, string xml_name)
+        public static void UpdateXML(string parent_node_name, string updated_node_name, int updated_node_value,
+            string xml_name)
         {
             string path = Application.dataPath + "/player_Data/" + xml_name + ".xml";
             string updated_node_value_str = updated_node_value.ToString();
@@ -99,11 +108,13 @@ public class XmlTools : MonoBehaviour
             {
                 throw new Exception("load fail,do not find file");
             }
+
             XmlNode inquired_node = doc.SelectSingleNode(parent_node_name);
             if (inquired_node == null)
             {
                 throw new Exception("do not find node");
             }
+
             XmlNodeList charactors = inquired_node.ChildNodes;
             //charactors.SelectNodes(updated_node_name)
 
@@ -114,6 +125,7 @@ public class XmlTools : MonoBehaviour
                     charactors[i].InnerText = updated_node_value_str;
                 }
             }
+
             //写入文档
             doc.Save(path);
         }
@@ -125,7 +137,7 @@ public class XmlTools : MonoBehaviour
         /// <param name="xml_name"></param>
         public static void ReadXML(string xml_name, string root_name)
         {
-    
+
             XmlDocument doc = new XmlDocument();
             string path = Application.dataPath + "/player_Data/" + xml_name + ".xml";
             doc.Load(path);
@@ -164,12 +176,13 @@ public class XmlTools : MonoBehaviour
                 //    attr_list.RemoveChild(i);
                 //}
             }
+
             doc.Save(path);
         }
 
         // 此方法为读取配置的XML文件，不同的XML结构 需要不同的
         // 调用时由物品的manage掉用方法
-        public static void ReadXmlConfig()
+        public void ReadXmlWeaponConfig()
         {
 
             XmlDocument doc = new XmlDocument();
@@ -187,5 +200,5 @@ public class XmlTools : MonoBehaviour
                 weapon_dictionary.Add(key, temp);
             }
         }
-
+    }
 }

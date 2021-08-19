@@ -777,6 +777,9 @@
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>D:/unity2019.4学习/2_14/ms/M_S_studio/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.2D.Sprite.Editor">
+     <HintPath>D:/unity2019.4学习/2_14/ms/M_S_studio/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">

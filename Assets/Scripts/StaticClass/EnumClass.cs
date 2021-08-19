@@ -60,8 +60,16 @@ namespace ServerGuilt
             Blunt,// 钝击
         }
         
-        
-        
+        //debuff的枚举
+        public enum FloatStatus
+        {
+            ContainBleed,
+            Dizziness,
+            SlowDown,
+            //bu
+        }
+
+
 
 
     }

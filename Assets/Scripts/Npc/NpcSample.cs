@@ -5,6 +5,7 @@ using System;
 using ServerGuilt;
 using UnityEngine.AI;
 using UnityEditor;
+using Player;
 [System.Serializable]
 // NPC的AI控制 基本为人物的固定的行走，播放说话的或什么东西的动画
 [RequireComponent(typeof(NavMeshAgent))]

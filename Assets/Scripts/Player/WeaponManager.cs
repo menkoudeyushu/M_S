@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using ServerGuilt;
 using UnityEngine;
 using Item;
+using Player;
+using Tools;
 // 这个类保存完玩家所拥有的全部武器物品
 public class WeaponManager : MonoBehaviour
 {
@@ -28,7 +30,7 @@ public class WeaponManager : MonoBehaviour
         //</weapon>
         private void ReadLocalWeaponXml()
         {
-                xml_weapon_list = XmlTools.ReadXml();
+                // xml_weapon_list = XmlTools.XmlToolsInstance.ReadXmlWeaponConfig();
         }
 
         private void ParseList2WeaponList()
@@ -38,7 +40,7 @@ public class WeaponManager : MonoBehaviour
                 {
                         // new class 
                         
-                        player_weapon_list.Add();
+                        // player_weapon_list.Add();
                 }
         }
 
