@@ -708,8 +708,8 @@
      <Reference Include="VSSettingsProvider">
      <HintPath>D:/unity2019.4学习/2_14/ms/M_S_studio/Library/ScriptAssemblies/VSSettingsProvider.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-     <HintPath>D:/unity2019.4学习/2_14/ms/M_S_studio/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     <Reference Include="Unity.2D.Sprite.Editor">
+     <HintPath>D:/unity2019.4学习/2_14/ms/M_S_studio/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.ProBuilder">
      <HintPath>D:/unity2019.4学习/2_14/ms/M_S_studio/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
@@ -726,14 +726,17 @@
      <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
      <HintPath>D:/unity2019.4学习/2_14/ms/M_S_studio/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>D:/unity2019.4学习/2_14/ms/M_S_studio/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
-     </Reference>
      <Reference Include="UnityEngine.UI">
      <HintPath>D:/unity2019.4学习/2_14/ms/M_S_studio/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Runtime">
+     <HintPath>D:/unity2019.4学习/2_14/ms/M_S_studio/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Polybrush.Editor">
      <HintPath>D:/unity2019.4学习/2_14/ms/M_S_studio/Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>D:/unity2019.4学习/2_14/ms/M_S_studio/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Polybrush">
      <HintPath>D:/unity2019.4学习/2_14/ms/M_S_studio/Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
@@ -776,9 +779,6 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>D:/unity2019.4学习/2_14/ms/M_S_studio/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Sprite.Editor">
-     <HintPath>D:/unity2019.4学习/2_14/ms/M_S_studio/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
