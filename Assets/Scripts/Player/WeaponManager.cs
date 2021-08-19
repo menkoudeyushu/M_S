@@ -49,11 +49,11 @@ public class WeaponManager : MonoBehaviour
                         if (player_weapon_list[i].sword_config_str == sword_str)
                         {
                                 if (type == EnumClass.DataUpdateType.Add)
-                                        player_weapon_list[i].ChangeItemCount(need_change_count);
+                                        player_weapon_list[i].ReduceItemCount(need_change_count);
                                 else if (type == EnumClass.DataUpdateType.Update)
-                                        ;
+                                        player_weapon_list[i].AddItemCount(need_change_count);
                                 else if (type == EnumClass.DataUpdateType.Delete)
-                                        ;
+                                        player_weapon_list.RemoveAt(i);
                                 else
                                         ;
                         }

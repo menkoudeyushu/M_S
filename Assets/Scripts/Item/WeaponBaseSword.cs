@@ -1,5 +1,5 @@
 ﻿using ServerGuilt;
-
+using  Player;
 namespace Item
 {
     public class WeaponBaseSword : ItemBase
@@ -8,7 +8,8 @@ namespace Item
         public string sword_config_str;
         private EnumClass.SwordAttackType sword_attack_type;
         private int physical_attack_count;
-        private int magic_attack_count;
+        // 此处的设计为 玩家有多少法力值 * 这个武器对法力值的 接受度
+        //private int magic_attack_count;
         private int magic_addition_precent_count;
 
         private int weapon_count;
@@ -26,7 +27,7 @@ namespace Item
         {
             sword_attack_type = sword_type;
             physical_attack_count = physical_count;
-            magic_attack_count = magic_addition_precent;
+            //magic_attack_count = magic_addition_precent * PlayerBase.PlayerMaxMagic;
             magic_addition_precent_count = magic_addition_precent;
             weapon_count = count;
         }
@@ -42,11 +43,16 @@ namespace Item
         }
         
         // 
-        public void ChangeItemCount(int count)
+        public void ReduceItemCount(int count)
         {
             weapon_count = weapon_count - count;
         }
-
+        
+        public void AddItemCount(int count)
+        {
+            weapon_count = weapon_count + count;
+        }
+        
 
 
 

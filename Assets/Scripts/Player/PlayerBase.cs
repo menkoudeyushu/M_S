@@ -2,44 +2,51 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// Singleton
-public class PlayerBase : MonoBehaviour
+namespace Player
 {
-    // 这个静态的类有什么属性以后在顶
-    private static PlayerBase PlayerInstance;
-    private int PlayerMaxHealth;
-    private int PlayerCurrentHealth;
-    private int PlayerMaxMagic;
-    private int PlayerCurrentMagic;
-
-    // 构造函数
-    private PlayerBase()
+// Singleton
+    public class PlayerBase : MonoBehaviour
     {
-        // 在构造函数中 读取XML文件的数据
-
-    }
-    
-    //todo:
-    public static void GetPlayerDataByXML()
-    {
+        // 这个静态的类有什么属性以后在顶
+        private static PlayerBase PlayerInstance;
+        private int PlayerMaxHealth;
+        private int PlayerCurrentHealth;
+        public static int PlayerMaxMagic;
+        private int PlayerCurrentMagic;
         
-        
-    }
-
-
-    public static PlayerBase GetPlayerBaseInstance()
-    {
-        if (PlayerInstance == null)
+        // 构造函数
+        private PlayerBase()
         {
-            PlayerInstance = new PlayerBase();
-        }
-        return PlayerInstance;
-    }
+            // 在构造函数中 读取XML文件的数据
 
-    private void OnDestroy()
-    {
+        }
         
-        Debug.LogError("static playerbase class delete");
-        PlayerInstance = null;
+        // 用不用属性来控制private的变量?
+        
+        
+        //todo:
+        public static void GetPlayerDataByXML()
+        {
+            
+            
+        }
+
+
+        public static PlayerBase GetPlayerBaseInstance()
+        {
+            if (PlayerInstance == null)
+            {
+                PlayerInstance = new PlayerBase();
+            }
+            return PlayerInstance;
+        }
+
+        private void OnDestroy()
+        {
+            
+            Debug.LogError("static playerbase class delete");
+            PlayerInstance = null;
+        }
+        
     }
 }
