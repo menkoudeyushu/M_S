@@ -7,7 +7,7 @@ using System;
 
 namespace Tools
 {
-    public class XmlTools : MonoBehaviour
+    public  class XmlTools : MonoBehaviour
     {
         public static XmlTools XmlToolsInstance;
 

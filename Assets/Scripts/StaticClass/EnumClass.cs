@@ -68,7 +68,15 @@ namespace ServerGuilt
             SlowDown,
             //bu
         }
-
+        
+        // 玩家当前装备的类型的枚举值
+        public enum PlayerEquipingType
+        {
+            Head = 0,
+            Chest = 1,
+            Pants = 2,
+            Shoe = 3,
+        }
 
 
 
