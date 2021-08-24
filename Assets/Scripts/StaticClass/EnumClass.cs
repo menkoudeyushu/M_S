@@ -60,6 +60,17 @@ namespace ServerGuilt
             Blunt,// 钝击
         }
         
+        // 如果以后还有剑的话，就在增加
+        public enum SwordType
+        {
+            WarSword,// 战剑
+            BastardSwords,//混种剑
+            Claymore,//苏格兰阔刃大斩剑
+            EstocSword,//破甲剑
+        }
+
+
+
         //debuff的枚举
         public enum FloatStatus
         {
@@ -92,6 +103,14 @@ namespace ServerGuilt
             HPAddition,
             MPAddition,
         }
+
+        public enum PlayerMainOrAssistant
+        {
+            Main,
+            Assistant,
+        }
+
+
         
     }
 }
