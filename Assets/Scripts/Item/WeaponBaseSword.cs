@@ -23,7 +23,7 @@ namespace Item
         }
         
         
-        private WeaponBaseSword(EnumClass.SwordAttackType sword_type,int physical_count,int magic_attack,int magic_addition_precent,int count)
+        private WeaponBaseSword(EnumClass.SwordAttackType sword_type,int physical_count,int magic_addition_precent,int count)
         {
             sword_attack_type = sword_type;
             physical_attack_count = physical_count;

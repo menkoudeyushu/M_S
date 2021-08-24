@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--下列的type类型为药品的类型，0，1，2数字标识-->
+<drug>
+    <drug01>
+        <name>drug name1</name>
+        <type>0</type>
+        <addition>10</addition>
+    </drug01>
+    
+    <drug02>
+        <name>drug name2</name>
+        <type>1</type>
+        <addition>20</addition>
+    </drug02>
+</drug>

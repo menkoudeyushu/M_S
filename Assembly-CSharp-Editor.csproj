@@ -41,6 +41,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Item\BagItemManager.cs" />
      <Compile Include="Assets\Scripts\tools\PrefabCacheUtil.cs" />
      <Compile Include="Assets\Scripts\tools\StaticToolClass.cs" />
      <Compile Include="Assets\Storyteller\Game Bridge\Editor\ClickListenerEditor.cs" />

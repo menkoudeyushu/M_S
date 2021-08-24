@@ -78,7 +78,20 @@ namespace ServerGuilt
             Shoe = 3,
         }
 
-
-
+        // 物品的类型
+        public enum ItemType()
+        {
+            Medicine,
+            Equipment
+            SpecialItem,
+        }
+        
+        // 药品的类型
+        public enum DrugType
+        {
+            HPAddition,
+            MPAddition,
+        }
+        
     }
 }

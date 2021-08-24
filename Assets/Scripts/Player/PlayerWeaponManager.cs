@@ -5,7 +5,8 @@ using UnityEngine;
 using Item;
 using Player;
 using Tools;
-// 这个类保存完玩家所拥有的全部武器物品
+
+// 这个类为主副武器
 // 这个游戏设计的武器 系统有两个武器槽位
 
 namespace Player
