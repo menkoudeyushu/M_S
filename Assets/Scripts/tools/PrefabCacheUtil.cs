@@ -9,6 +9,7 @@ namespace tools
 {
     public static class PrefabCacheUtil
     {
+        // 这个dictionary只是为缓存的储存，
         static Dictionary<string, GameObject> PrefabsMap;
         static List<string> keepList;
         
@@ -18,6 +19,7 @@ namespace tools
             keepList = new List<string>();
         }
 
+        //
         public static T GetAssetsFromMapWithT<T>(string path) where T : Object
         {
             T prefab = null;
@@ -39,6 +41,7 @@ namespace tools
             {
                 return null;
             }
+            
             if (prefabsMap.ContainsKey(path)) {
                 return prefabsMap[path];
             } 
@@ -60,6 +63,7 @@ namespace tools
             {
                 // 这因该是不可能的
                 Debug.LogError("prefab重复命名");
+                return null;
             }
 
             if (files.Length == 1)
@@ -69,7 +73,40 @@ namespace tools
 
             }
         }
+        
+        public static GameObject CreateObjectFromPrefabPathWithParent(string path, Transform parent = null) {
+            GameObject prefab = PrefabCacheUtil.GetPrefabFromMap(path);
+            if (prefab == null) {
+                LogMgr.LogError("error prefab not exists", path);
+                return GameObject.CreatePrimitive(PrimitiveType.Cube);
+            }
+            GameObject gameObject = UnityEngine.Object.Instantiate(prefab, parent, false) as GameObject;
+            return gameObject;
+        }
+        
+        public static GameObject CreateObjectFromPrefabPath(string path, Transform parent = null) {
+            return CreateObjectFromPrefabPathWithPosition(path, Vector3.zero, parent);
+        }
+        
+        public static GameObject CreateObjectFromPrefabPathWithPosition(string path, Vector3 defaultPosition, Transform parent) {
+            GameObject prefab = PrefabCacheUtil.GetPrefabFromMap(path);
+            if (prefab == null) {
+                LogMgr.LogError("error prefab not exists", path);
+                return GameObject.CreatePrimitive(PrimitiveType.Cube);
+            }
+            GameObject gameObject = UnityEngine.Object.Instantiate(prefab, defaultPosition, Quaternion.identity, parent) as GameObject;
+            return gameObject;
+        }
 
+        public static bool IsAssetsExist(string path)
+        {
+            Object o = GetAssetsFromMapWithT<Object>(path);
+            if(o == null)
+            {
+                return false;
+            }
+            return true;
+        }
 
         
         

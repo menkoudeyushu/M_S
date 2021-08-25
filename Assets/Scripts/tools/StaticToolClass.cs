@@ -4,7 +4,8 @@ using UnityEngine;
 using System.Xml;
 using System.IO;
 using System;
-using tools;
+using System.Diagnostics;
+
 namespace tools
 {
     /// <summary>
@@ -14,17 +15,47 @@ namespace tools
     {
         public static SingleWeapons GetSingleWeaponInDic(string weapon_key)
         {
-            if (XmlToolsInstance.Dictionary[weapon_key] == null]
+            if (XmlToolsInstance.weapon_dictionary[weapon_key] == null])
             {
-                debug
+                Debug.Logerror("未在配置中找到物品");
             }
             else
             {
+                return XmlToolsInstance.weapon_dictionary[weapon_key];
+
+            }
+
+        }
+        
+        public static SingleArmour GetSingleArmoueInDic(string armour_key)
+        {
+            if (XmlToolsInstance.armour_dictionary[armour_key] == null])
+            {
+                Debug.Logerror("未在配置中找到物品");
+            }
+            else
+            {
+                return XmlToolsInstance.armour_dictionary[armour_key];
+
+            }
+
+        }
+        
+        public static SingleDrug GetSingleDrugInDic(string drug_key)
+        {
+            if (XmlToolsInstance.drug_dictionary[drug_key] == null])
+            {
+                Debug.Logerror("未在配置中找到物品");
+            }
+            else
+            {
+                return XmlToolsInstance.drug_dictionary[drug_key];
+
             }
 
         }
 
-
+        
 
 
 
