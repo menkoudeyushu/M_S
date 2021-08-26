@@ -92,7 +92,7 @@ namespace tools
             GameObject prefab = PrefabCacheUtil.GetPrefabFromMap(path);
             if (prefab == null) {
                 LogMgr.LogError("error prefab not exists", path);
-                return GameObject.CreatePrimitive(PrimitiveType.Cube);
+                return null;
             }
             GameObject gameObject = UnityEngine.Object.Instantiate(prefab, defaultPosition, Quaternion.identity, parent) as GameObject;
             return gameObject;
@@ -108,6 +108,7 @@ namespace tools
             return true;
         }
 
+        
         
         
         

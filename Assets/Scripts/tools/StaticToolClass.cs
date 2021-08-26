@@ -15,7 +15,7 @@ namespace tools
     {
         public static SingleWeapons GetSingleWeaponInDic(string weapon_key)
         {
-            if (XmlToolsInstance.weapon_dictionary[weapon_key] == null])
+            if (XmlToolsInstance.weapon_dictionary[weapon_key] == null)
             {
                 Debug.Logerror("未在配置中找到物品");
             }
@@ -29,7 +29,7 @@ namespace tools
         
         public static SingleArmour GetSingleArmoueInDic(string armour_key)
         {
-            if (XmlToolsInstance.armour_dictionary[armour_key] == null])
+            if (XmlToolsInstance.armour_dictionary[armour_key] == null)
             {
                 Debug.Logerror("未在配置中找到物品");
             }
@@ -43,7 +43,7 @@ namespace tools
         
         public static SingleDrug GetSingleDrugInDic(string drug_key)
         {
-            if (XmlToolsInstance.drug_dictionary[drug_key] == null])
+            if (XmlToolsInstance.drug_dictionary[drug_key] == null)
             {
                 Debug.Logerror("未在配置中找到物品");
             }
