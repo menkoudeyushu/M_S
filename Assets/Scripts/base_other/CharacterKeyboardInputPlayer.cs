@@ -7,7 +7,7 @@ public class CharacterKeyboardInputPlayer : CharacterKeyboardInput
 {
 	public KeyCode Attack01Key = KeyCode.J;
 	public KeyCode Attack02Key = KeyCode.K;
-	public KeyCode ShiftKeKey = KeyCode.LeftShift;
+	public KeyCode ShiftKey = KeyCode.LeftShift;
 	public KeyCode ForwardMove = KeyCode.W;
 	// Start is called before the first frame update
 	public  bool IsAttack01Pressed()
@@ -22,7 +22,9 @@ public class CharacterKeyboardInputPlayer : CharacterKeyboardInput
 
 	public bool IsLeftShiftPressed()
 	{
-		return Input.GetKey(ShiftKeKey) && Input.GetKey(ForwardMove);
+		//Debug.LogError(Input.GetKeyDown(ShiftKey));
+		
+		return Input.GetKey(ShiftKey) && Input.GetKey(ForwardMove);
 	}
 }
 

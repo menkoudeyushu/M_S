@@ -4,6 +4,9 @@ using UnityEngine;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using UnityEditor;
+using Debug = UnityEngine.Debug;
+using Object = UnityEngine.Object;
 
 namespace tools
 {
@@ -14,7 +17,7 @@ namespace tools
         
         static PrefabCacheUtil() 
         {
-            prefabsMap = new Dictionary<string, GameObject>();
+            PrefabsMap = new Dictionary<string, GameObject>();
             keepList = new List<string>();
         }
 
@@ -23,15 +26,18 @@ namespace tools
             T prefab = null;
             string prefabPathTemp = "";
             // 初始的路径prefab路径
-            string init_prefabs_path = "path";
-            prefabPathTemp = init_prefabs_path + ".prefab";
+            prefabPathTemp = path + ".prefab";
             
             prefab = AssetDatabase.LoadAssetAtPath<T>(prefabPathTemp);
             
+            
             if(prefab == null) 
             {
-                Debug.LogError("GetAssetsFromMapWithT not found", prefabPathTemp);
+                Debug.LogError("GetAssetsFromMapWithT not found" +  prefabPathTemp);
+                return null;
             }
+
+            return prefab;
         }
         
         public static GameObject GetPrefabFromMap(string path) {
@@ -39,36 +45,33 @@ namespace tools
             {
                 return null;
             }
-            if (prefabsMap.ContainsKey(path)) {
-                return prefabsMap[path];
+            if (PrefabsMap.ContainsKey(path)) {
+                return PrefabsMap[path];
             } 
             else 
             {
                 GameObject prefab = GetAssetsFromMapWithT<GameObject>(path);
                 if (prefab != null) {
-                    prefabsMap[path] = prefab;
+                    PrefabsMap[path] = prefab;
                 }
                 return prefab;
             }
         }
         
         // 此方法为返回单个的prefabs
-        public static GameOject GetPrefabByPath(string path)
+        public static GameObject GetPrefabByPath(string path)
         {
             string[] files = Directory.GetFiles(path, "*.prefab", SearchOption.AllDirectories);
             if (files.Length >= 2)
             {
                 // 这因该是不可能的
                 Debug.LogError("prefab重复命名");
+                return null;
             }
-
-            if (files.Length == 1)
-            {
-                GameObject _prefab = AssetDatabase.LoadAssetAtPath(files[0], typeof(GameObject)) as GameObject;
-                return _prefab;
-
+            
+            GameObject _prefab = AssetDatabase.LoadAssetAtPath(files[0], typeof(GameObject)) as GameObject;
+            return _prefab;
             }
-        }
 
 
         

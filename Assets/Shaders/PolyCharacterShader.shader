@@ -122,7 +122,7 @@ Shader "Unlit/PolyCharacterShader"
             {
 					
 			
-			
+				return (1,1,1,1);
 		
 
 			
