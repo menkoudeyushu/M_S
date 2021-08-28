@@ -6,7 +6,9 @@ namespace Item
     {
         // XML 配置中的键值
         public string sword_config_str;
+        // 剑的类型对应不同的属性
         private EnumClass.SwordAttackType sword_attack_type;
+
         private int physical_attack_count;
         // 此处的设计为 玩家有多少法力值 * 这个武器对法力值的 接受度
         //private int magic_attack_count;
@@ -23,7 +25,7 @@ namespace Item
         }
         
         
-        private WeaponBaseSword(EnumClass.SwordAttackType sword_type,int physical_count,int magic_attack,int magic_addition_precent,int count)
+        private WeaponBaseSword(EnumClass.SwordAttackType sword_type,int physical_count,int magic_addition_precent,int count)
         {
             sword_attack_type = sword_type;
             physical_attack_count = physical_count;
@@ -53,7 +55,7 @@ namespace Item
             weapon_count = weapon_count + count;
         }
         
-
+        
 
 
 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--下列的type类型为剑的类型，0，1，2数字标识-->
+<weapon>
+    <sword01>
+        <type>0</type>
+        <name>sword name1</name>
+        <attack>10</attack>
+        <acceptability>40</acceptability>
+    </sword01>
+    <sword02>
+        <type>1</type>
+        <name>sword name2</name>
+        <attack>20</attack>
+        <acceptability>30</acceptability>
+    </sword02>
+</weapon>

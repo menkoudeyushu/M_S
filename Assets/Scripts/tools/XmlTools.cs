@@ -16,17 +16,46 @@ namespace Tools
             // 在构造函数中 读取XML文件的数据
             //ReadXmlConfig();
         }
-
+        
+        //////
+            /// 重要
+        /////
+        
+        //每种类型的物品分开些
         public struct SingleWeapons
         {
+            public int sword_type;
+            public string name;
             public int attack;
-            public int durability;
+            // range(0,100)
+            public int acceptability;
         };
+        
+        public struct SingleArmour
+        {
+            public string name;
+            public int defence_value;
+        };
+
+        public struct SingleDrug
+        {
+            public int drug_type;
+            public string name;
+            public int addition_count;
+        };
+        
+
+        
+                
+
+
+
 
         // struct type
         public static Dictionary<string, SingleWeapons> weapon_dictionary = new Dictionary<string, SingleWeapons>();
-
-
+        public static Dictionary<string, SingleArmour>  armour_dictionary = new Dictionary<string, SingleArmour>();
+        public static Dictionary<string, SingleDrug>  drug_dictionary = new Dictionary<string, SingleDrug>();
+        
 
         public static XmlTools GetPlayerBaseInstance()
         {
@@ -182,11 +211,13 @@ namespace Tools
 
         // 此方法为读取配置的XML文件，不同的XML结构 需要不同的
         // 调用时由物品的manage掉用方法
+        //****   考虑到以后PC端的打包 就用 Application.streamingAssetsPath                     ****//
+        //****    如果有andriod ios 的重新写一下 ****//
         public void ReadXmlWeaponConfig()
         {
 
+            string xmlfile = Application.streamingAssetsPath+"/Config/WeaponConfig.xml";
             XmlDocument doc = new XmlDocument();
-            string xmlfile = @"C:/Users/SJOY/Desktop/comsum/XML_TEST.xml";
             doc.Load(xmlfile);
 
             XmlNode weapon = doc.SelectSingleNode("weapon");
@@ -195,10 +226,51 @@ namespace Tools
             {
                 SingleWeapons temp;
                 string key = weapon_node_list[i].Name;
+                temp.sword_type = int.Parse(weapon_node_list[i].SelectSingleNode("sword_type").InnerText);
+                temp.name = weapon_node_list[i].SelectSingleNode("name").InnerText;
                 temp.attack = int.Parse(weapon_node_list[i].SelectSingleNode("attack").InnerText);
-                temp.durability = int.Parse(weapon_node_list[i].SelectSingleNode("durability").InnerText);
+                temp.acceptability = int.Parse(weapon_node_list[i].SelectSingleNode("acceptability").InnerText);
                 weapon_dictionary.Add(key, temp);
             }
         }
+        
+        // 护甲
+        public void ReadXmlArmourConfig()
+        {
+             string xmlfile = Application.streamingAssetsPath+"/Config/ArmourConfig.xml";
+             XmlDocument doc = new XmlDocument();
+             doc.Load(xmlfile);
+             XmlNode armour = doc.SelectSingleNode("armour");
+             XmlNodeList armour_node_list = armour.ChildNodes;
+             for (int i = 0; i < armour_node_list.Count; i++)
+             {
+                SingleArmour temp;
+                string key = armour_node_list[i].Name;
+                temp.acceptability = int.Parse(weapon_node_list[i].SelectSingleNode("name").InnerText);
+                temp.acceptability = int.Parse(weapon_node_list[i].SelectSingleNode("defence_value").InnerText);
+                armour_dictionary.Add(key, temp);
+            }
+        }
+
+        //药品
+        public void ReadXmlDrugConfig()
+        {
+             string xmlfile = Application.streamingAssetsPath+"/Config/DrugConfig.xml";
+             XmlDocument doc = new XmlDocument();
+             doc.Load(xmlfile);
+             XmlNode drug = doc.SelectSingleNode("drug");
+             XmlNodeList drug_node_list = drug.ChildNodes;
+             for (int i = 0; i < drug_node_list.Count; i++)
+             {
+                SingleDrug temp;
+                string key = drug_node_list[i].Name;
+                temp.drug_type = int.Parse(weapon_node_list[i].SelectSingleNode("type").InnerText);
+                temp.name = weapon_node_list[i].SelectSingleNode("name").InnerText;
+                temp.addition_count = int.Parse(weapon_node_list[i].SelectSingleNode("addition").InnerText);
+                drug_dictionary.Add(key, temp);
+            }
+        }
+
+
     }
 }

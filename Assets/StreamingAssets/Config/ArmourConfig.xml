@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<armour>
+    <armour01>
+        <name>armour name1</name>
+        <defence_value>10</defence_value>
+    </armour01>
+    <armour02>
+        <name>armour name2</name>
+        <defence_value>20</defence_value>
+    </armour02>
+</armour>
