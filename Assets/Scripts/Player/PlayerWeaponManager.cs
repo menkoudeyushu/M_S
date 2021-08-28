@@ -28,8 +28,8 @@ namespace Player
                 private PlayerWeaponManager()
                 {
                         // 在构造函数中 读取XML文件的数据
-                        ReadLocalWeaponXml();
-                        ParseList2WeaponList();
+                        // ReadLocalWeaponXml();
+                        // ParseList2WeaponList();
 
                 }
                 
@@ -47,7 +47,7 @@ namespace Player
                         {
                                 main_weapon = weapon;
                         }
-                        elseif(main_or_ass == EnumClass.PlayerMainOrAssistant.Assistant)
+                        else if(main_or_ass == EnumClass.PlayerMainOrAssistant.Assistant)
                         {
                                 assistant_weapon = weapon;
                         }
@@ -61,12 +61,13 @@ namespace Player
 
                 public int GetMainWeaponType()
                 {
-                    return main_weapon.
+                    // return main_weapon.
+                    return 1;
                 }
                 
                 public int GetMainAssistantType()
-                {
-                        
+                { 
+                        return 1;   
                 }
 
 

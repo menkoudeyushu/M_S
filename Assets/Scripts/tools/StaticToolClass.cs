@@ -5,6 +5,9 @@ using System.Xml;
 using System.IO;
 using System;
 using System.Diagnostics;
+using Debug = UnityEngine.Debug;
+using tools;
+using Tools;
 
 namespace tools
 {
@@ -13,45 +16,46 @@ namespace tools
     /// </summary>
     public static class StaticToolClass
     {
-        public static SingleWeapons GetSingleWeaponInDic(string weapon_key)
+        public static XmlTools.SingleWeapons GetSingleWeaponInDic(string weapon_key)
         {
-            if (XmlToolsInstance.weapon_dictionary[weapon_key] == null)
-            {
-                Debug.Logerror("未在配置中找到物品");
-            }
-            else
-            {
-                return XmlToolsInstance.weapon_dictionary[weapon_key];
+            // if (XmlTools.XmlToolsInstance.weapon_dictionary[weapon_key] == null)
+            // {
+            //     Debug.LogError("未在配置中找到物品");
+            // }
+            // else
+            // {
+                return XmlTools.XmlToolsInstance.weapon_dictionary[weapon_key];
 
-            }
+            // }
 
         }
         
-        public static SingleArmour GetSingleArmoueInDic(string armour_key)
+        public static XmlTools.SingleArmour GetSingleArmoueInDic(string armour_key)
         {
-            if (XmlToolsInstance.armour_dictionary[armour_key] == null)
-            {
-                Debug.Logerror("未在配置中找到物品");
-            }
-            else
-            {
-                return XmlToolsInstance.armour_dictionary[armour_key];
+            // if (XmlTools.XmlToolsInstance.armour_dictionary[armour_key] == null)
+            // {
+            //     Debug.LogError("未在配置中找到物品");
+            // }
+            // else
+            // {
+                return XmlTools.XmlToolsInstance.armour_dictionary[armour_key];
 
-            }
+            //}
 
         }
         
-        public static SingleDrug GetSingleDrugInDic(string drug_key)
+        public static XmlTools.SingleDrug GetSingleDrugInDic(string drug_key)
         {
-            if (XmlToolsInstance.drug_dictionary[drug_key] == null)
-            {
-                Debug.Logerror("未在配置中找到物品");
-            }
-            else
-            {
-                return XmlToolsInstance.drug_dictionary[drug_key];
+            // if (XmlTools.XmlToolsInstance.drug_dictionary[drug_key] == null)
+            // {
+            //     UnityEngine.Debug.LogError("未在配置中找到物品");
+            //     return null;
+            // }
+            // else
+            // {
+                return XmlTools.XmlToolsInstance.drug_dictionary[drug_key];
 
-            }
+            // }
 
         }
 

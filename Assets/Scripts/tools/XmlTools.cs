@@ -35,6 +35,7 @@ namespace Tools
         {
             public string name;
             public int defence_value;
+            
         };
 
         public struct SingleDrug
@@ -52,9 +53,9 @@ namespace Tools
 
 
         // struct type
-        public static Dictionary<string, SingleWeapons> weapon_dictionary = new Dictionary<string, SingleWeapons>();
-        public static Dictionary<string, SingleArmour>  armour_dictionary = new Dictionary<string, SingleArmour>();
-        public static Dictionary<string, SingleDrug>  drug_dictionary = new Dictionary<string, SingleDrug>();
+        public  Dictionary<string, SingleWeapons> weapon_dictionary = new Dictionary<string, SingleWeapons>();
+        public  Dictionary<string, SingleArmour>  armour_dictionary = new Dictionary<string, SingleArmour>();
+        public  Dictionary<string, SingleDrug>  drug_dictionary = new Dictionary<string, SingleDrug>();
         
 
         public static XmlTools GetPlayerBaseInstance()
@@ -246,8 +247,8 @@ namespace Tools
              {
                 SingleArmour temp;
                 string key = armour_node_list[i].Name;
-                temp.acceptability = int.Parse(weapon_node_list[i].SelectSingleNode("name").InnerText);
-                temp.acceptability = int.Parse(weapon_node_list[i].SelectSingleNode("defence_value").InnerText);
+                temp.name = armour_node_list[i].SelectSingleNode("name").InnerText;
+                temp.defence_value = int.Parse(armour_node_list[i].SelectSingleNode("defence_value").InnerText);
                 armour_dictionary.Add(key, temp);
             }
         }
@@ -264,9 +265,9 @@ namespace Tools
              {
                 SingleDrug temp;
                 string key = drug_node_list[i].Name;
-                temp.drug_type = int.Parse(weapon_node_list[i].SelectSingleNode("type").InnerText);
-                temp.name = weapon_node_list[i].SelectSingleNode("name").InnerText;
-                temp.addition_count = int.Parse(weapon_node_list[i].SelectSingleNode("addition").InnerText);
+                temp.drug_type = int.Parse(drug_node_list[i].SelectSingleNode("type").InnerText);
+                temp.name = drug_node_list[i].SelectSingleNode("name").InnerText;
+                temp.addition_count = int.Parse(drug_node_list[i].SelectSingleNode("addition").InnerText);
                 drug_dictionary.Add(key, temp);
             }
         }

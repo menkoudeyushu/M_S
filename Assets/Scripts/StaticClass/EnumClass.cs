@@ -90,12 +90,12 @@ namespace ServerGuilt
         }
 
         // 物品的类型
-        public enum ItemType()
-        {
-            Medicine,
-            Equipment
-            SpecialItem,
-        }
+        // public enum ItemType
+        // {
+        //     Medicine,
+        //     Equipment,
+        //     SpecialItem
+        // }
         
         // 药品的类型
         public enum DrugType
