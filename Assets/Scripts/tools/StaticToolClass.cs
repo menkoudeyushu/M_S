@@ -8,6 +8,7 @@ using System.Diagnostics;
 using Debug = UnityEngine.Debug;
 using tools;
 using Tools;
+using UnityEngine.UI;
 
 namespace tools
 {
@@ -59,7 +60,11 @@ namespace tools
 
         }
 
-        
+        public static  Sprite GetImageByPath(string image_path)
+        {
+            Sprite res_sprite = Resources.Load(image_path,typeof(Sprite)) as Sprite;
+            return res_sprite;
+        }
 
 
 

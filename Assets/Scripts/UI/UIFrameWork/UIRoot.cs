@@ -4,10 +4,10 @@ using UnityEngine;
 using ServerGuilt;
 public class UIRoot : MonoBehaviour
 {
-    void Start()
+    void Awake()
     {
         //在游戏开始时加载MainMenuPanel
-        UIManager.Instance.PushPanel(EnumClass.UIPanelType.MainMenuPanel);
+        UIManager.Instance.PushPanel(EnumClass.UIPanelType.UiInitPanel);
     }
 }
 

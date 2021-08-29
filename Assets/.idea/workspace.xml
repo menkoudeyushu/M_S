@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc56ecef-f323-42df-a477-a764f2c77ff4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Sword Animset/Animations/RootMotion/Attack_01.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Sword Animset/Animations/RootMotion/Attack_01.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prefabs/Buildings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prefabs/Npc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prefabs/Npc/Character_Male_Wizard_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prefabs/Npc/Character_Male_Wizard_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prefabs/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prefabs/Player/PlayerPoly Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prefabs/Player/PlayerPoly Variant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/PolygonFantasyCharacters/Animations/Char@Spear Relax.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/PolygonFantasyCharacters/Animations/Char@Spear Relax.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/StaticClass/EnumClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/StaticClass/EnumClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/UI/UIFrameWork/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/UI/UIFrameWork/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/UI/UIFrameWork/UIRoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/UI/UIFrameWork/UIRoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Detective Bot Characters .html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Detective Bot Characters .html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Detective Bot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Detective Bot.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Images/Cubie Maru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Images/Cubie Maru.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Images/Detective BotCover Image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Images/Detective BotCover Image.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Images/NPC1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Images/NPC1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Images/NPC2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Images/NPC2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Images/NPC3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Images/NPC3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Images/No_Storyboard_Image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Images/No_Storyboard_Image.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Images/footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Images/footer.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Images/no_Scene_Image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Images/no_Scene_Image.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Images/storytellerIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Images/storytellerIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/Main.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/css.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/css/character_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/css/character_style.css.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/css/environment_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/css/environment_style.css.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/css/overview_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/css/overview_style.css.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/css/scene_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Export Folder/css/scene_style.css.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Image Files.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Image Files/Cubie Maru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Image Files/Cubie Maru.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Image Files/Detec-tiveBotCover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Image Files/Detec-tiveBotCover.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Image Files/NPC1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Image Files/NPC1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Image Files/NPC2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot Project Data/Detective Bot Image Files/NPC2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/Detective Bot.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/NPC Quest Project Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/NPC Quest Project Data/NPC Quest Image Files.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/NPC Quest Project Data/NPC Quest Image Files/NPC-Quest-Cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/NPC Quest Project Data/NPC Quest Image Files/NPC-Quest-Cover.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/NPC Quest.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/NPC Quest.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/好きじゃない Project Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/好きじゃない Project Data/好きじゃない Image Files.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/好きじゃない Project Data/好きじゃない Image Files/あゆみ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/好きじゃない Project Data/好きじゃない Image Files/あゆみ.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/好きじゃない Project Data/好きじゃない Image Files/好きじゃない.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/好きじゃない Project Data/好きじゃない Image Files/好きじゃない.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/好きじゃない.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Example Stories/好きじゃない.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/DaiMangou.BridgedData.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/DaiMangou.BridgedData.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Elements.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Elements/ActionNodeData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Elements/ActionNodeData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Elements/CharacterNodeData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Elements/CharacterNodeData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Elements/DialogueNodeData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Elements/DialogueNodeData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Elements/EndNodeData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Elements/EndNodeData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Elements/EnvironmentNodeData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Elements/EnvironmentNodeData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Elements/LinkNodeData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Elements/LinkNodeData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Elements/RouteNodeData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Elements/RouteNodeData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/ScriptableObjectData.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/ScriptableObjectData/BridgeData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/ScriptableObjectData/BridgeData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/ScriptableObjectData/NodeData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/ScriptableObjectData/NodeData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/ScriptableObjectData/SceneData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/ScriptableObjectData/SceneData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/ClickListener.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/ClickListener.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/CollisionInteractionReceiver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/CollisionInteractionReceiver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/CollisionInteractionTrigger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/CollisionInteractionTrigger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/Condition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/Condition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/DynamicMethod.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/DynamicMethod.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/History.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/History.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/InteractableCharacter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/InteractableCharacter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/Interaction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/Interaction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/InteractionTriggerManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/InteractionTriggerManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/KeywordFilter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/KeywordFilter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/ReflectedData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/ReflectedData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/SerializableMethodInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/SerializableMethodInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/SerializableType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Bridged Data/Scripts/SerializableType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/ClickListenerEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/ClickListenerEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/CollisionInteractionReceiverEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/CollisionInteractionReceiverEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/CollisionInteractionTriggerEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/CollisionInteractionTriggerEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/ConditionCopy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/ConditionCopy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/GameBridgeEditorWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/GameBridgeEditorWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/IconAssignmentPostProcessor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/IconAssignmentPostProcessor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/InteractableCharacterEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/InteractableCharacterEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/InteractionEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/InteractionEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/MarkupEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/MarkupEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/SceneDataEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/SceneDataEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/ToolImageData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Editor/ToolImageData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Animations/Door_Type_C_Body_L1 1.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Animations/Door_Type_C_Body_L1 1.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Animations/Door_Type_C_Body_R2 1.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Animations/Door_Type_C_Body_R2 1.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Animations/HangarDoorOpenLeft.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Animations/HangarDoorOpenLeft.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Animations/HangarDoorOpenRight.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Animations/HangarDoorOpenRight.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Animations/VentBlade.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Animations/VentBlade.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Animations/Vent_Piece_78.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Animations/Vent_Piece_78.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Audio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Audio/KeyPressSound.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Audio/KeyPressSound.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Environment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Environment/Flare.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Environment/Flare/LightRedSun.flare" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Environment/Flare/LightRedSun.flare.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Environment/Flare/Sun2.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Environment/Flare/Sun2.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Environment/Flare/indoor.flare" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Environment/Flare/indoor.flare.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Fonts/NotoSansJP-Regular.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Fonts/NotoSansJP-Regular.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Fonts/NotoSansJP-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Fonts/NotoSansJP-Regular.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/Awards.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/Awards.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/Banner-Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/Banner-Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/Banner.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/Banner.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/BottleGlass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/BottleGlass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/DaiMangouObject 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/DaiMangouObject 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/DaiMangouObject_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/DaiMangouObject_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/Dev Picture Frame.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/Dev Picture Frame.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/Dev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/Dev.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/Floor Grid  B.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/Floor Grid  B.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/Floor Grid A.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/Floor Grid A.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/GameBridgeObject_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/GameBridgeObject_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/New Material 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/New Material 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/New Material 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/New Material 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/New Material 3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/New Material 3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/New Material 4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/New Material 4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/New Material 5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/New Material 5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/New Material 6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/New Material 6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/New Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/New Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/ParticleAfterburner.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/ParticleAfterburner.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/Picture Frame Glass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/Picture Frame Glass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/StorytellerObject 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/StorytellerObject 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/StorytellerObject.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/StorytellerObject.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/StorytellerObject_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/StorytellerObject_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/StorytellerObject_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/StorytellerObject_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/StorytellerObject_HeightMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/StorytellerObject_HeightMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/StorytellerObject_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/StorytellerObject_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/StorytellerObject_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/StorytellerObject_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/StorytellerObject_Specular.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/StorytellerObject_Specular.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/UI Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/UI Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/UnityAwardsPicture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/UnityAwardsPicture.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/WindowGlass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/WindowGlass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/WineGlass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/WineGlass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/col.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/col.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/scratched_metal_01_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/scratched_metal_01_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/shiny.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Materials/shiny.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Banner.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Banner.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Bed.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Bed.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Bin.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Bin.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Corner_Table.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Corner_Table.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/DaiMangouObject.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/DaiMangouObject.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/ExampleEnvironment.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/ExampleEnvironment.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Flag.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Flag.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Flower Pot.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Flower Pot.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Large Flower Pot.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Large Flower Pot.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Light_Socket.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Light_Socket.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Long Cup.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Long Cup.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Martini Glass.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Martini Glass.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Mobius Loop Long.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Mobius Loop Long.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Mobius Loop.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Mobius Loop.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Picture Frame.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Picture Frame.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Pillow.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Pillow.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Red Wine Glass.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Red Wine Glass.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Sheet_Type_A.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Sheet_Type_A.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Sheet_Type_B.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Sheet_Type_B.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Sheet_Type_C.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Sheet_Type_C.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Sheet_Type_D.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Sheet_Type_D.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Sheet_Type_E.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Sheet_Type_E.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Sheet_Type_F.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Sheet_Type_F.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Short Cup.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Short Cup.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Stand.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Stand.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Table.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Table.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/White Wine Glass.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/White Wine Glass.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Wine Bottle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Wine Bottle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Wine Glass.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Wine Glass.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Wine Rack.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Models/Environment Pieces/Wine Rack.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs/Character.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs/Character/Maru.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs/Character/Maru.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs/Character/NPC.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs/Character/NPC.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs/Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs/Effects/thrusterBurn.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs/Effects/thrusterBurn.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs/UI/Button Type A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs/UI/Button Type A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs/UI/Button Type B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs/UI/Button Type B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs/UI/ChatBlock-Left.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs/UI/ChatBlock-Left.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs/UI/ChatBlock-Right.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs/UI/ChatBlock-Right.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs/UI/Route Button.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Prefabs/UI/Route Button.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Animation/Idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Animation/Idle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Animation/Run.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Animation/Run.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Animation/RunTurn.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Animation/RunTurn.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Animation/RunTurnSharp.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Animation/RunTurnSharp.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Animation/StandTurn.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Animation/StandTurn.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Animation/Walk.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Animation/Walk.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Animation/WalkTurn.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Animation/WalkTurn.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Animation/WalkTurnSharp.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Animation/WalkTurnSharp.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Controller/MaruController.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Controller/MaruController.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left/Arm_Left.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left/Arm_Left.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left/Arm_Left_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left/Arm_Left_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left/Arm_Left_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left/Arm_Left_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left/Arm_Left_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left/Arm_Left_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left/Arm_Left_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left/Arm_Left_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left/Arm_Left_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left/Arm_Left_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left/Arm_Left_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left/Arm_Left_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_2/Arm_Left_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_2/Arm_Left_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_2/Arm_Left_2_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_2/Arm_Left_2_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_2/Arm_Left_2_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_2/Arm_Left_2_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_2/Arm_Left_2_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_2/Arm_Left_2_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_2/Arm_Left_2_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_2/Arm_Left_2_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_2/Arm_Left_2_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_2/Arm_Left_2_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_2/Arm_Left_2_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_2/Arm_Left_2_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_3/Arm_Left_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_3/Arm_Left_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_3/Arm_Left_3_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_3/Arm_Left_3_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_3/Arm_Left_3_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_3/Arm_Left_3_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_3/Arm_Left_3_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_3/Arm_Left_3_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_3/Arm_Left_3_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_3/Arm_Left_3_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_3/Arm_Left_3_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_3/Arm_Left_3_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_3/Arm_Left_3_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Left_3/Arm_Left_3_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right/Arm_Right.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right/Arm_Right.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right/Arm_Right_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right/Arm_Right_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right/Arm_Right_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right/Arm_Right_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right/Arm_Right_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right/Arm_Right_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right/Arm_Right_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right/Arm_Right_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right/Arm_Right_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right/Arm_Right_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right/Arm_Right_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right/Arm_Right_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_2/Arm_Right_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_2/Arm_Right_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_2/Arm_Right_2_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_2/Arm_Right_2_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_2/Arm_Right_2_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_2/Arm_Right_2_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_2/Arm_Right_2_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_2/Arm_Right_2_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_2/Arm_Right_2_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_2/Arm_Right_2_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_2/Arm_Right_2_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_2/Arm_Right_2_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_2/Arm_Right_2_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_2/Arm_Right_2_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_3/Arm_Right_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_3/Arm_Right_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_3/Arm_Right_3_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_3/Arm_Right_3_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_3/Arm_Right_3_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_3/Arm_Right_3_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_3/Arm_Right_3_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_3/Arm_Right_3_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_3/Arm_Right_3_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_3/Arm_Right_3_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_3/Arm_Right_3_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_3/Arm_Right_3_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_3/Arm_Right_3_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Arm_Right_3/Arm_Right_3_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet/Helmet.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet/Helmet.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet/Helmet_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet/Helmet_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet/Helmet_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet/Helmet_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet/Helmet_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet/Helmet_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet/Helmet_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet/Helmet_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet/Helmet_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet/Helmet_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet/Helmet_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet/Helmet_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_2/Helmet-2_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_2/Helmet-2_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_2/Helmet_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_2/Helmet_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_2/Helmet_2_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_2/Helmet_2_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_2/Helmet_2_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_2/Helmet_2_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_2/Helmet_2_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_2/Helmet_2_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_2/Helmet_2_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_2/Helmet_2_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_2/Helmet_2_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_2/Helmet_2_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_3/Helmet-3_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_3/Helmet-3_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_3/Helmet_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_3/Helmet_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_3/Helmet_3_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_3/Helmet_3_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_3/Helmet_3_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_3/Helmet_3_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_3/Helmet_3_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_3/Helmet_3_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_3/Helmet_3_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_3/Helmet_3_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_3/Helmet_3_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Helmet_3/Helmet_3_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left/Leg_Left.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left/Leg_Left.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left/Leg_Left_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left/Leg_Left_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left/Leg_Left_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left/Leg_Left_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left/Leg_Left_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left/Leg_Left_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left/Leg_Left_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left/Leg_Left_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left/Leg_Left_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left/Leg_Left_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left/Leg_Left_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left/Leg_Left_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_2/Leg_Left_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_2/Leg_Left_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_2/Leg_Left_2_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_2/Leg_Left_2_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_2/Leg_Left_2_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_2/Leg_Left_2_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_2/Leg_Left_2_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_2/Leg_Left_2_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_2/Leg_Left_2_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_2/Leg_Left_2_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_2/Leg_Left_2_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_2/Leg_Left_2_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_2/Leg_Left_2_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_2/Leg_Left_2_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_3/Leg_Left_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_3/Leg_Left_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_3/Leg_Left_3_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_3/Leg_Left_3_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_3/Leg_Left_3_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_3/Leg_Left_3_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_3/Leg_Left_3_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_3/Leg_Left_3_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_3/Leg_Left_3_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_3/Leg_Left_3_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_3/Leg_Left_3_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_3/Leg_Left_3_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_3/Leg_Left_3_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Left_3/Leg_Left_3_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right/Leg_Right.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right/Leg_Right.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right/Leg_Right_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right/Leg_Right_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right/Leg_Right_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right/Leg_Right_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right/Leg_Right_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right/Leg_Right_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right/Leg_Right_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right/Leg_Right_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right/Leg_Right_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right/Leg_Right_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right/Leg_Right_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right/Leg_Right_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_2/Leg_Right_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_2/Leg_Right_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_2/Leg_Right_2_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_2/Leg_Right_2_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_2/Leg_Right_2_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_2/Leg_Right_2_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_2/Leg_Right_2_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_2/Leg_Right_2_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_2/Leg_Right_2_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_2/Leg_Right_2_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_2/Leg_Right_2_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_2/Leg_Right_2_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_2/Leg_Right_2_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_2/Leg_Right_2_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_3/Leg_Right_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_3/Leg_Right_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_3/Leg_Right_3_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_3/Leg_Right_3_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_3/Leg_Right_3_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_3/Leg_Right_3_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_3/Leg_Right_3_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_3/Leg_Right_3_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_3/Leg_Right_3_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_3/Leg_Right_3_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_3/Leg_Right_3_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_3/Leg_Right_3_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_3/Leg_Right_3_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Leg_Right_3/Leg_Right_3_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower/Torso_Lower.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower/Torso_Lower.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower/Torso_Lower_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower/Torso_Lower_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower/Torso_Lower_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower/Torso_Lower_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower/Torso_Lower_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower/Torso_Lower_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower/Torso_Lower_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower/Torso_Lower_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower/Torso_Lower_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower/Torso_Lower_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower/Torso_Lower_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower/Torso_Lower_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_2/Torso_Lower_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_2/Torso_Lower_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_2/Torso_Lower_2_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_2/Torso_Lower_2_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_2/Torso_Lower_2_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_2/Torso_Lower_2_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_2/Torso_Lower_2_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_2/Torso_Lower_2_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_2/Torso_Lower_2_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_2/Torso_Lower_2_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_2/Torso_Lower_2_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_2/Torso_Lower_2_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_2/Torso_Lower_2_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_2/Torso_Lower_2_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_3/Torso_Lower_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_3/Torso_Lower_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_3/Torso_Lower_3_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_3/Torso_Lower_3_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_3/Torso_Lower_3_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_3/Torso_Lower_3_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_3/Torso_Lower_3_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_3/Torso_Lower_3_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_3/Torso_Lower_3_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_3/Torso_Lower_3_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_3/Torso_Lower_3_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_3/Torso_Lower_3_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_3/Torso_Lower_3_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Lower_3/Torso_Lower_3_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper/Torso_Upper.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper/Torso_Upper.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper/Torso_Upper_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper/Torso_Upper_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper/Torso_Upper_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper/Torso_Upper_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper/Torso_Upper_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper/Torso_Upper_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper/Torso_Upper_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper/Torso_Upper_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper/Torso_Upper_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper/Torso_Upper_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper/Torso_Upper_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper/Torso_Upper_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper_2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper_2/Torso_Upper_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper_2/Torso_Upper_2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper_2/Torso_Upper_2_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper_2/Torso_Upper_2_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper_2/Torso_Upper_2_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper_2/Torso_Upper_2_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper_2/Torso_Upper_2_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper_2/Torso_Upper_2_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper_2/Torso_Upper_2_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper_2/Torso_Upper_2_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper_2/Torso_Upper_2_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper_2/Torso_Upper_2_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper_2/Torso_Upper_2_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torso_Upper_2/Torso_Upper_2_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torst_Upper_3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torst_Upper_3/Torso_Upper_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torst_Upper_3/Torso_Upper_3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torst_Upper_3/Torso_Upper_3_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torst_Upper_3/Torso_Upper_3_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torst_Upper_3/Torso_Upper_3_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torst_Upper_3/Torso_Upper_3_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torst_Upper_3/Torso_Upper_3_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torst_Upper_3/Torso_Upper_3_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torst_Upper_3/Torso_Upper_3_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torst_Upper_3/Torso_Upper_3_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torst_Upper_3/Torso_Upper_3_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torst_Upper_3/Torso_Upper_3_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torst_Upper_3/Torso_Upper_3_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Torst_Upper_3/Torso_Upper_3_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Vents.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Vents/Vents.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Vents/Vents.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Vents/Vents_Albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Vents/Vents_Albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Vents/Vents_Emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Vents/Vents_Emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Vents/Vents_HeightMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Vents/Vents_HeightMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Vents/Vents_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Vents/Vents_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Vents/Vents_NormalMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Vents/Vents_NormalMap.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Vents/Vents_Occlusion.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Vents/Vents_Occlusion.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Visor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Visor/Visor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Visor/Visor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Visor/Visor_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Visor/Visor_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Visor/Visor_HeightMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Materials/DaiMaru/Visor/Visor_HeightMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Model.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Model/DaiMaru.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Model/DaiMaru.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Prefabs/Maru.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Prefabs/Maru.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Scripts/MaruCharacterController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Scripts/MaruCharacterController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Scripts/MaruControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Sample Character/Scripts/MaruControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scene Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scene Data/Basic NPC Interaction.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scene Data/Basic NPC Interaction.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scene Data/Dating Sim.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scene Data/Dating Sim.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scene Data/Detective Bot.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scene Data/Detective Bot.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scene Data/NPC Walkup.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scene Data/NPC Walkup.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scenes/Chat History Style.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scenes/Chat History Style.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scenes/Cubie Maru the Detective Bot.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scenes/Cubie Maru the Detective Bot.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scenes/Cubie Maru the Detective Bot_Profiles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scenes/Cubie Maru the Detective Bot_Profiles/Camera Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scenes/Cubie Maru the Detective Bot_Profiles/Camera Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scenes/Dating Sim.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scenes/Dating Sim.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scenes/NPC walkup.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scenes/NPC walkup.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/ChatBubbleInstancer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/ChatBubbleInstancer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/ControlFan.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/ControlFan.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/ExampleActiveNodeDataCheck.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/ExampleActiveNodeDataCheck.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/ExampleCondition1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/ExampleCondition1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/ExampleConditions2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/ExampleConditions2.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/ExampleStringMethods.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/ExampleStringMethods.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/FadeUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/FadeUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/MatchRotation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/MatchRotation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/RayClick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/RayClick.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/RotateThisObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/RotateThisObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/SaveManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/SaveManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/SmoothFollow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/SmoothFollow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/TouchedIDCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Scripts/TouchedIDCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Textures/GridEmissiveRB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Textures/GridEmissiveRB.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Textures/SwatchNavyAlbedoRB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/Textures/SwatchNavyAlbedoRB.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Button-Layer-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Button-Layer-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Next-Button-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Next-Button-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Next-Button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Next-Button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Panel-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Panel-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Panel-Layer-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Panel-Layer-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Panel-Layer-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Panel-Layer-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Panel-Layer-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Panel-Layer-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Panel-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Panel-background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Panel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Panel.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Previous-Button-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Previous-Button-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Previous-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Previous-button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Save-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Save-32.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/UI/Square.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/bright-clouds-color-907485.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/bright-clouds-color-907485.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/Base-Backgtound-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/Base-Backgtound-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/Base-Backgtound.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/Base-Backgtound.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/Battery-Charging-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/Battery-Charging-16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/Keyboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/Keyboard.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/Phone-Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/Phone-Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/Phone-Button-A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/Phone-Button-A.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/Phone-Cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/Phone-Cover.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/RSS-Feeds-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/RSS-Feeds-16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/Scratch-Effects.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/Scratch-Effects.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/Signal-Bars-1-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/Signal-Bars-1-16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/cell phone.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/cell phone.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/chat-Bubbe-Left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/chat-Bubbe-Left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/chat-Bubbl_Right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/chat-Bubbl_Right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/colour-background-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/colour-background-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/colour-background-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/colour-background-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/colour-background-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/colour-background-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/colour-background-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/colour-background-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/main-text-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/main-text-background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/text-area.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/phone/text-area.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/triggerArea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/Example Game Bridge Scene Assets/sprites/triggerArea.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/README.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/asmtest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Game Bridge/asmtest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/LIB.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/LIB/Storyteller.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/LIB/Storyteller.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/LIB/Storyteller.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/LIB/Storyteller.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/ReadMe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/ReadMe.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/GameBridgeSkin.guiskin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/GameBridgeSkin.guiskin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/ImageResources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/ImageResources/GridTexture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/ImageResources/GridTexture.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/BoxButtonNormal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/BoxButtonNormal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/BoxButtonOver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/BoxButtonOver.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/ConditionBody.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/ConditionBody.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/ConditionBodyFooter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/ConditionBodyFooter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/FlatBoxButtonHover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/FlatBoxButtonHover.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/FlatBoxButtonNormal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/FlatBoxButtonNormal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/HorizontalScrollbar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/HorizontalScrollbar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/HorizontalScrollbarHover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/HorizontalScrollbarHover.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/HorizontalScrollbarThumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/HorizontalScrollbarThumb.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/HorizontalSlider.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/HorizontalSlider.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/NodeBodyDark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/NodeBodyDark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/NodeBodyLight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/NodeBodyLight.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/Slider Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/Slider Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/SliderThumb Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/SliderThumb Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/SliderThumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/SliderThumb.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/SliderThumbArrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/SliderThumbArrow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/TextArea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/TextArea.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/TextArea2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/TextArea2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/TimelineTimeBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/TimelineTimeBox.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/TooltipBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/TooltipBox.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/VerticalScrollBar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/VerticalScrollBar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/VerticalScrollbarThumbBlue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/VerticalScrollbarThumbBlue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/chatBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/chatBox.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/chatBoxActive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/chatBoxActive.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/floatField..png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/floatField..png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/selectionBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/selectionBox.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/textArea3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/textArea3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/toggleActive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/toggleActive.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/toggleHover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/toggleHover.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/toggleInactive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Images/toggleInactive.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/StoryEditorSkin.guiskin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/StoryEditorSkin.guiskin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Storyteller.guiskin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/Storyteller.guiskin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/TimelineSkin.guiskin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/TimelineSkin.guiskin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/ToolIconSettings.text" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/ToolIconSettings.text.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/exampleDialogue.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Resources/exampleDialogue.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Storyteller_User_Guide.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Storyteller_User_Guide.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Submission Guidelines.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Submission Guidelines.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Templates.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Templates/Convergence.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Templates/Convergence.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Templates/NPC Quest.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Templates/NPC Quest.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Templates/Time Loop.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Templates/Time Loop.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Templates/Visual Novel.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/Templates/Visual Novel.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/image Layout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Storyteller/image Layout.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1xONLN5RCZcFT894rQqZTzL21K1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc56ecef-f323-42df-a477-a764f2c77ff4" name="Default Changelist" comment="" />
+      <created>1630222120371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630222120371</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -41,8 +41,9 @@ public class UIManager
     }
 
 
-    readonly string panelPrefabPath = Application.dataPath + @"/Resources/UIPanelPrefab";
-    readonly string jsonPath = Application.dataPath + @"/player_data/Json/UIJson.json";
+    // 全部UI的prefab路径
+    readonly string panelPrefabPath = Application.dataPath + @"/Resources/Prefabs/UI";
+    readonly string jsonPath = Application.streamingAssetsPath + @"/player_data/Json/UIType.json";
 
     //数据
     private List<UIPanel> panelList;
@@ -73,15 +74,16 @@ public class UIManager
 
         //读取储存面板prefab的文件夹的信息
         DirectoryInfo folder = new DirectoryInfo(panelPrefabPath);
-
         //遍历储存面板prefab的文件夹里每一个prefab的名字，并把名字转换为对应的UIPanelType
         //再检查UIPanelType是否存在于List里,若存在List里则更新path,若不存在List里则加上
-        foreach (FileInfo file in folder.GetFiles("*.prefab"))
+        foreach (FileInfo file in folder.GetFiles("*." +
+                                                  "prefab" +
+                                                  ""))
         {
             EnumClass.UIPanelType type = (EnumClass.UIPanelType)Enum.Parse(typeof(EnumClass.UIPanelType), file.Name.Replace(".prefab", ""));
             //这里的path是相对路径，因为加载时使用的是Resources.load
-            string path = @"UIPanelPrefab/" + file.Name.Replace(".prefab", "");
-
+            string path = @"Prefabs/UI/" + file.Name.Replace(".prefab", "");
+        
             bool UIPanelExistInList = false;//默认该UIPanel不在现有UIPanelList中
 
             //在List里查找type相同的UIPanel
