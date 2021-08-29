@@ -200,18 +200,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 7fdc70fea5827214e82799ffd358b432, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: set_name
-        m_Mode: 5
+      - m_Target: {fileID: 1003108282157291728}
+        m_TargetAssemblyTypeName: InitUiScript, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: StartGame
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!1 &2121690160861151751
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,7 +453,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4016457958714721629}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: 7fdc70fea5827214e82799ffd358b432, type: 3}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!1 &4669963305039232523
 GameObject:
   m_ObjectHideFlags: 0
@@ -544,7 +556,7 @@ GameObject:
   - component: {fileID: 3274725738610516235}
   - component: {fileID: 120220636880084162}
   - component: {fileID: 9217507840283877700}
-  - component: {fileID: 6654223253909099089}
+  - component: {fileID: 1003108282157291728}
   m_Layer: 5
   m_Name: UiInitPanel
   m_TagString: Untagged
@@ -612,7 +624,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &6654223253909099089
+--- !u!114 &1003108282157291728
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

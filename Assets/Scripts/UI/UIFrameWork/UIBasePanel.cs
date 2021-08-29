@@ -39,7 +39,7 @@ using UnityEngine.UI;
         }
 
 
-        // ´ý¶¨ 
+        // ???? 
         private Button FindCloseButton(string childName)
         {
             Button closeButton = null;

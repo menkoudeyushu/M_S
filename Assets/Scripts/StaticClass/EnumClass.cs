@@ -18,7 +18,7 @@ namespace ServerGuilt
         // ���Ժ󿪷�������
         public enum UIPanelType
         {
-            UiInitPanel,
+            UiInitPanel, // 初始界面 开始 继续 结束
             MainMenuPanel,
             SystemSettingPanel,
             PausePanel,
