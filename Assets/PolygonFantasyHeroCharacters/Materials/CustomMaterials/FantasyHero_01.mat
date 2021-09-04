@@ -101,7 +101,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Metallic: 0.44
+    - Metallic: 1.77
     - Smoothness: 0.55
     - _BodyArt_Amount: 0.38853437
     - _Smoothness: 0.195
