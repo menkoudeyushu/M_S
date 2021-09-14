@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 /// <summary>
-/// ÆğÊ¼Ò³ÃæµÄUI
+/// èµ·å§‹é¡µé¢çš„UI
 /// </summary>
 /// 
 public class InitUiScript : UIBasePanel
 {
     public void StartGame()
     {
-        // ÇĞ»»³¡¾°  ¼ÓÔØµÄ³¡¾°
-        Debug.LogError("change scene");
+        // åˆ‡æ¢åœºæ™¯  åŠ è½½çš„åœºæ™¯
         SceneManager.LoadScene("LoadScene");
         
     }
