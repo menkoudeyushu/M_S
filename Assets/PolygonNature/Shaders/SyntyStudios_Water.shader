@@ -88,6 +88,7 @@ Shader "SyntyStudios/Water"
 	}
 	Fallback "Diffuse"
 	CustomEditor "ASEMaterialInspector"
+	
 }
 /*ASEBEGIN
 Version=16200
