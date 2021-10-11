@@ -28,6 +28,7 @@ public class LoadSceneBySync : MonoBehaviour
     // private Image background_pic;
     void Start()
     {
+        
         next_scene_name = SceneLoadManager.SceneLoadManagerInstance.GetNextSceneName();
         // 不同的scene_name 就换不同的 图片
         GetSceneBackgroundImage(next_scene_name);

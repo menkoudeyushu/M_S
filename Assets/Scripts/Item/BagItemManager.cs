@@ -30,9 +30,6 @@ namespace Item
         {
             // 读取玩家数据的XML
             // 依据player_data_dic 的key 值进行在 物品的配置里寻找
-            
-            
-            
         }
 
 
